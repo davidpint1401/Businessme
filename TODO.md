@@ -28,7 +28,8 @@ Cada marcador `[ASÍ]` del sitio aparece aquí. Búscalo en los HTML y reempláz
 - [ ] `[DESCRIPCION_RUGGERI]`: una línea sobre el proyecto conceptual
 
 ## Informes de resultados (catálogo de WhatsApp)
-- [ ] Fabiola Beauty: su tarjeta ya tiene 4 campañas (sep 2025 – feb 2026), pero no enlaza a nada porque en el Canva usa el mismo enlace que Pasto Sintético. Si tiene informe en el catálogo, enviar el enlace.
+- [x] Fabiola Beauty: 6 campañas de jun 2025 a feb 2026, con enlace al catálogo `wa.me/p/6743732579055610`.
+- [ ] `[LINK_PASTO_SINTETICO]`: el enlace que tenía Pasto Sintético en el Canva es en realidad el de Fabiola. Enviar el enlace correcto de Pasto Sintético.
 - [ ] Cifras clave de cada informe (Castro, Pasto Sintético, Mogar Decor, Cabletoday, Unalivio, Fabiola Beauty y PLAFAM). Desde aquí no se pueden abrir los enlaces de WhatsApp. Con las cifras se pueden mostrar como tarjetas KPI.
 - [x] Mogar Decor (México) agregado a clientes, porque hay informe real.
 - [ ] Confirmar el nombre: "Castro Realty" (lista de clientes) o "Castro Inmobiliaria" (Canva)
@@ -61,7 +62,7 @@ Cada marcador `[ASÍ]` del sitio aparece aquí. Búscalo en los HTML y reempláz
 - [ ] Archivo vacío `Informes` en la raíz del repo: ¿era una carpeta para los informes? Git no guarda carpetas vacías.
 
 ## Guaroshop: historial de 11 meses
-- [x] Las campañas de "Post de resultados ads.pdf" en la cuenta publicitaria 794012149193596 son de Guaroshop: los anuncios salen como @guaroshop2023, y el informe de sep–oct coincide con los datos del mes anterior. Se publicó la tabla mes a mes de dic 2025 a oct 2026 (17.452 conversaciones, $4.888,69).
+- [x] Las campañas de "Post de resultados ads.pdf" en la cuenta publicitaria 794012149193596 son de Guaroshop: los anuncios salen como @guaroshop2023, y el informe de sep–oct coincide con los datos del mes anterior. Se publicó la tabla mes a mes de dic 2025 a oct 2026 (17.560 conversaciones, $5.011,11, incluidas las 2 campañas de San Valentín).
 - [x] Las campañas sin enlace también son de Guaroshop (confirmado).
 - [x] "TRAFICO - DICIEMBRE" es de Todo Cosmético (@todocosmetico.detal; también existe @todocosmetico.mayor). Tarjeta publicada.
 - [x] Todo Cosmético: 29 nov 2025 – 2 ene 2026.
@@ -70,6 +71,6 @@ Cada marcador `[ASÍ]` del sitio aparece aquí. Búscalo en los HTML y reempláz
 ## Anuncios sueltos (imágenes del chat)
 - [x] Castro Realty: el reel es del 19 sep 2024 y los posts de la casa en La Remosa son de Castro (confirmado).
 - [x] Reinaldo Cejas: Venezuela.
-- [ ] Post "higiene y desechables" (8 abril) y post "Llegando..." (27 abril): ¿de qué cliente son? No se publicaron.
+- [x] Los posts "higiene y desechables" y "Llegando..." no se publican (decisión de David).
 - [x] El reel de la patillera Kemei es de Guaroshop. Agregado a la galería del caso.
-- [x] Posts de la casa en La Remosa: de Castro Realty. Publicados en su tarjeta (110 mensajes, 24.700 personas alcanzadas). Falta el año exacto de esos posts.
+- [x] Posts de la casa en La Remosa: de Castro Realty. Publicados en su tarjeta (110 mensajes, 24.700 personas alcanzadas). Se publican como 2024 (confirmado).
