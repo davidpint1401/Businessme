@@ -1,6 +1,28 @@
 # Diccionario ES -> EN. Las cifras se escriben en formato español;
 # el generador las convierte a formato inglés (3.875 -> 3,875; $0,24 -> $0.24).
 T = {
+"¿No sabes qué necesitas o tienes un presupuesto definido? Agendamos una sesión, revisamos tu negocio y armamos juntos un plan hecho para ti. La sesión tiene costo, pero me adapto a tu presupuesto con una propuesta inicial manejable.": "Not sure what you need, or working with a set budget? We book a session, review your business and build a plan made for you. The session is paid, but I adapt to your budget with a manageable initial proposal.",
+"Soy David Pinto, Meta Ads Manager y desarrollador front-end. Ayudo a negocios de Venezuela y del exterior a conseguir más mensajes, ventas y clientes, con un trabajo claro, rápido y confiable.": "I'm David Pinto, a Meta Ads Manager and front-end developer. I help businesses in Venezuela and abroad get more messages, sales and clients, with work that is clear, fast and reliable.",
+"Contenido y marca": "Content and branding",
+"Identidad visual y guía de uso de tu marca.": "Visual identity and usage guide for your brand.",
+"desde $400": "from $400",
+"desde $600": "from $600",
+"A tu medida": "Made for you",
+"Crea tu plan personalizado": "Build your custom plan",
+"¿No sabes qué necesitas o tienes un presupuesto definido? Agendamos una sesión, revisamos tu negocio y armamos juntos un plan hecho para ti, acorde a tu presupuesto y a lo que necesitas.": "Not sure what you need, or working with a set budget? We book a session, review your business and build a plan made for you, based on your budget and your needs.",
+"Quiero mi plan": "I want my plan",
+"Mi compromiso contigo": "My commitment to you",
+"Mi trabajo es ayudarte a poner tu negocio en el lugar que merece, explicado de forma que tú lo entiendas.": "My job is to help put your business where it deserves to be, explained in a way you understand.",
+"Claro": "Clear",
+"Te explico qué hago y por qué, sin tecnicismos.": "I explain what I do and why, without jargon.",
+"Informativo": "Informative",
+"Cada mes sabes cuánto invertiste y qué obtuviste.": "Every month you know what you spent and what you got.",
+"Confiable": "Reliable",
+"Resultados reales, con datos de Meta, sin cifras infladas.": "Real results with Meta data, no inflated numbers.",
+"Rápido": "Fast",
+"Respuestas y entregas a tiempo.": "Replies and deliveries on time.",
+"Seguro": "Secure",
+"Tus cuentas, accesos y datos se manejan con cuidado profesional.": "Your accounts, access and data are handled with professional care.",
 # --- Navegación y comunes
 "Saltar al contenido": "Skip to content",
 "Idioma": "Language",
@@ -492,6 +514,7 @@ T = {
 
 # Mensajes prellenados de WhatsApp y asuntos de email (ya codificados en la URL)
 URL = {
+"Hola%20David%2C%20quiero%20crear%20un%20plan%20personalizado%20para%20mi%20negocio.": "Hi%20David%2C%20I%20want%20to%20build%20a%20custom%20plan%20for%20my%20business.",
 "Hola%20David%2C%20vi%20tu%20web%20y%20quiero%20m%C3%A1s%20clientes%20para%20mi%20negocio.": "Hi%20David%2C%20I%20saw%20your%20website%20and%20I%20want%20more%20clients%20for%20my%20business.",
 "Hola%20David%2C%20quiero%20cotizar%20una%20p%C3%A1gina%20web%20para%20mi%20negocio.": "Hi%20David%2C%20I%27d%20like%20a%20quote%20for%20a%20website%20for%20my%20business.",
 "Hola%20David%2C%20quiero%20informaci%C3%B3n%20sobre%20la%20gesti%C3%B3n%20mensual%20de%20Meta%20Ads.": "Hi%20David%2C%20I%27d%20like%20information%20about%20monthly%20Meta%20Ads%20management.",

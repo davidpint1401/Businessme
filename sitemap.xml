@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://[DOMINIO]/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://[DOMINIO]/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://[DOMINIO]/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://[DOMINIO]/"/>
+  </url>
+  <url>
+    <loc>https://[DOMINIO]/en/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://[DOMINIO]/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://[DOMINIO]/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://[DOMINIO]/"/>
+  </url>
+  <url>
+    <loc>https://[DOMINIO]/casos/guaroshop/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://[DOMINIO]/casos/guaroshop/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://[DOMINIO]/en/cases/guaroshop/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://[DOMINIO]/casos/guaroshop/"/>
+  </url>
+  <url>
+    <loc>https://[DOMINIO]/en/cases/guaroshop/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://[DOMINIO]/casos/guaroshop/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://[DOMINIO]/en/cases/guaroshop/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://[DOMINIO]/casos/guaroshop/"/>
+  </url>
+  <url>
+    <loc>https://[DOMINIO]/casos/rucha/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://[DOMINIO]/casos/rucha/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://[DOMINIO]/en/cases/rucha/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://[DOMINIO]/casos/rucha/"/>
+  </url>
+  <url>
+    <loc>https://[DOMINIO]/en/cases/rucha/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://[DOMINIO]/casos/rucha/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://[DOMINIO]/en/cases/rucha/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://[DOMINIO]/casos/rucha/"/>
+  </url>
+  <url>
+    <loc>https://[DOMINIO]/casos/centro-plaza/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://[DOMINIO]/casos/centro-plaza/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://[DOMINIO]/en/cases/centro-plaza/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://[DOMINIO]/casos/centro-plaza/"/>
+  </url>
+  <url>
+    <loc>https://[DOMINIO]/en/cases/centro-plaza/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://[DOMINIO]/casos/centro-plaza/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://[DOMINIO]/en/cases/centro-plaza/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://[DOMINIO]/casos/centro-plaza/"/>
+  </url>
+  <url>
+    <loc>https://[DOMINIO]/casos/fundacion-unitrans/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://[DOMINIO]/casos/fundacion-unitrans/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://[DOMINIO]/en/cases/fundacion-unitrans/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://[DOMINIO]/casos/fundacion-unitrans/"/>
+  </url>
+  <url>
+    <loc>https://[DOMINIO]/en/cases/fundacion-unitrans/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://[DOMINIO]/casos/fundacion-unitrans/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://[DOMINIO]/en/cases/fundacion-unitrans/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://[DOMINIO]/casos/fundacion-unitrans/"/>
+  </url>
+  <url>
+    <loc>https://[DOMINIO]/casos/ruggeri-pizzeria/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://[DOMINIO]/casos/ruggeri-pizzeria/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://[DOMINIO]/en/cases/ruggeri-pizzeria/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://[DOMINIO]/casos/ruggeri-pizzeria/"/>
+  </url>
+  <url>
+    <loc>https://[DOMINIO]/en/cases/ruggeri-pizzeria/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://[DOMINIO]/casos/ruggeri-pizzeria/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://[DOMINIO]/en/cases/ruggeri-pizzeria/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://[DOMINIO]/casos/ruggeri-pizzeria/"/>
+  </url>
+</urlset>
