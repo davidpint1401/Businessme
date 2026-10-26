@@ -1,5 +1,21 @@
 # TODO · datos pendientes
 
+## Para publicar (prioridad)
+- [ ] `[DOMINIO]`: reemplazarlo en todos los archivos (comando en README.md) y regenerar el inglés.
+- [ ] `[FORMSPREE_ID]`: crear el formulario en formspree.io.
+- [ ] `[CALENDLY_LINK]`: enlace de Calendly.
+- [ ] Pasto Sintético: `[LINK_PASTO_SINTETICO]`, `[PERIODO_PASTO]` y cifras. Si no hay informe, quitar la tarjeta.
+- [ ] PLAFAM febrero/marzo: año y cifras del informe.
+- [ ] Rucha: `[CAPTURAS_RUCHA]` (capturas de los informes o de Ads Manager).
+
+## Hecho en esta etapa
+- [x] Versión en inglés (`/en/`), generada con `tools/gen_en.py`.
+- [x] sitemap.xml con hreflang, robots.txt, imágenes para compartir (ES y EN), 404, vercel.json.
+- [x] Fuentes servidas desde el sitio. Lighthouse: rendimiento 99–100, accesibilidad 100, buenas prácticas 100, SEO 100 con dominio real (85 mientras siga `[DOMINIO]`).
+- [x] Casos web con capturas reales y descripciones.
+
+## Historial y detalles
+
 Cada marcador `[ASÍ]` del sitio aparece aquí. Búscalo en los HTML y reemplázalo.
 
 ## Contacto y servicios
@@ -11,7 +27,7 @@ Cada marcador `[ASÍ]` del sitio aparece aquí. Búscalo en los HTML y reempláz
 
 ## SEO
 - [ ] `[DOMINIO]`: dominio final (canonical, hreflang, Open Graph, JSON-LD, sitemap)
-- [ ] `assets/img/og-image.jpg`: imagen para compartir de 1200×630
+- [x] `assets/img/og-image.jpg` y `og-image-en.jpg`: imágenes para compartir de 1200×630
 - [ ] Confirmar los perfiles de Instagram del JSON-LD y del footer (@davidpint1401, @lanavemk)
 
 ## Imágenes (WebP con ancho y alto)
@@ -57,8 +73,8 @@ Cada marcador `[ASÍ]` del sitio aparece aquí. Búscalo en los HTML y reempláz
 - [ ] "Cosméticos Paulita" en Drive es una propuesta, no resultados. No se publicó.
 
 ## Pendiente
-- [ ] Versión en inglés (/en/ y /en/cases/...). Los enlaces EN de las páginas de casos ya apuntan ahí.
-- [ ] sitemap.xml, robots.txt, og-image.jpg y vercel.json
+- [x] Versión en inglés.
+- [x] sitemap.xml, robots.txt, og-image.jpg y vercel.json
 - [ ] Archivo vacío `Informes` en la raíz del repo: ¿era una carpeta para los informes? Git no guarda carpetas vacías.
 
 ## Guaroshop: historial de 11 meses

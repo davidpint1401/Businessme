@@ -64,6 +64,7 @@ def convert(src, es_path, en_path):
     html = re.sub(r'href="(/[^"]*)"', lambda m: f'href="{es_to_en_path(m.group(1))}"' if not m.group(1).startswith(("/assets", "/en/")) else m.group(0), html)
     html = re.sub(r'<span aria-current="true" lang="es">ES</span>\s*<a href="[^"]*" hreflang="en" lang="en" aria-label="English version">EN</a>',
                   f'<a href="{es_path}" hreflang="es" lang="es" aria-label="Versión en español">ES</a>\n        <span aria-current="true" lang="en">EN</span>', html)
+    html = html.replace('/assets/img/og-image.jpg', '/assets/img/og-image-en.jpg')
     for a, b in URL.items():
         html = html.replace(a, b)
     # 3) JSON-LD
