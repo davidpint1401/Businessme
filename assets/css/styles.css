@@ -473,7 +473,8 @@ p { margin: 0 0 1em; }
 .report__cover--square { aspect-ratio: 16 / 9; }
 .report__cover--square img { object-position: center 40%; }
 .report__cover { aspect-ratio: 16 / 9; background: var(--gray-50); }
-.report__cover img { width: 100%; height: 100%; object-fit: cover; }
+.report__cover { position: relative; overflow: hidden; }
+.report__cover img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .report__cover--pending {
   display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .2rem;
   background: var(--navy); color: var(--white); position: relative; overflow: hidden; isolation: isolate;
