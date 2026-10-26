@@ -10,7 +10,7 @@
 
 ## Hecho en esta etapa
 - [x] Manual de marca (desde $400 VE / $600 internacional), plan personalizado y bloque «Mi compromiso contigo».
-- [ ] Plan personalizado: ¿tiene precio la sesión o es gratis? Por ahora no muestra precio.
+- [x] Plan personalizado: sesión con costo, propuesta inicial adaptada al presupuesto (sin precio fijo publicado).
 - [x] Versión en inglés (`/en/`), generada con `tools/gen_en.py`.
 - [x] sitemap.xml con hreflang, robots.txt, imágenes para compartir (ES y EN), 404, vercel.json.
 - [x] Fuentes servidas desde el sitio. Lighthouse: rendimiento 99–100, accesibilidad 100, buenas prácticas 100, SEO 100 con dominio real (85 mientras siga `[DOMINIO]`).

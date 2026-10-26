@@ -1,6 +1,7 @@
 # Diccionario ES -> EN. Las cifras se escriben en formato español;
 # el generador las convierte a formato inglés (3.875 -> 3,875; $0,24 -> $0.24).
 T = {
+"¿No sabes qué necesitas o tienes un presupuesto definido? Agendamos una sesión, revisamos tu negocio y armamos juntos un plan hecho para ti. La sesión tiene costo, pero me adapto a tu presupuesto con una propuesta inicial manejable.": "Not sure what you need, or working with a set budget? We book a session, review your business and build a plan made for you. The session is paid, but I adapt to your budget with a manageable initial proposal.",
 "Soy David Pinto, Meta Ads Manager y desarrollador front-end. Ayudo a negocios de Venezuela y del exterior a conseguir más mensajes, ventas y clientes, con un trabajo claro, rápido y confiable.": "I'm David Pinto, a Meta Ads Manager and front-end developer. I help businesses in Venezuela and abroad get more messages, sales and clients, with work that is clear, fast and reliable.",
 "Contenido y marca": "Content and branding",
 "Identidad visual y guía de uso de tu marca.": "Visual identity and usage guide for your brand.",
