@@ -74,3 +74,7 @@ Cada marcador `[ASÍ]` del sitio aparece aquí. Búscalo en los HTML y reempláz
 - [x] Los posts "higiene y desechables" y "Llegando..." no se publican (decisión de David).
 - [x] El reel de la patillera Kemei es de Guaroshop. Agregado a la galería del caso.
 - [x] Posts de la casa en La Remosa: de Castro Realty. Publicados en su tarjeta (110 mensajes, 24.700 personas alcanzadas). Se publican como 2024 (confirmado).
+
+## Branding
+- [x] Sección "Branding y manuales de marca" con AE Galería, Arte Express Design, Mobiles Design y Ladybox (enlaces del catálogo).
+- [ ] Imagen de portada para cada manual (opcional): enviar una captura de cada uno.
