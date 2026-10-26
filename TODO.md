@@ -28,7 +28,7 @@ Cada marcador `[ASÍ]` del sitio aparece aquí. Búscalo en los HTML y reempláz
 - [ ] `[DESCRIPCION_RUGGERI]`: una línea sobre el proyecto conceptual
 
 ## Informes de resultados (catálogo de WhatsApp)
-- [ ] `[LINK_FABIOLA_BEAUTY]`: en el Canva, Fabiola Beauty usa el mismo enlace que Pasto Sintético México (`wa.me/p/6743732579055610`). Enviar el enlace correcto.
+- [ ] Fabiola Beauty: su tarjeta ya tiene 4 campañas (sep 2025 – feb 2026), pero no enlaza a nada porque en el Canva usa el mismo enlace que Pasto Sintético. Si tiene informe en el catálogo, enviar el enlace.
 - [ ] Cifras clave de cada informe (Castro, Pasto Sintético, Mogar Decor, Cabletoday, Unalivio, Fabiola Beauty y PLAFAM). Desde aquí no se pueden abrir los enlaces de WhatsApp. Con las cifras se pueden mostrar como tarjetas KPI.
 - [x] Mogar Decor (México) agregado a clientes, porque hay informe real.
 - [ ] Confirmar el nombre: "Castro Realty" (lista de clientes) o "Castro Inmobiliaria" (Canva)
@@ -64,12 +64,12 @@ Cada marcador `[ASÍ]` del sitio aparece aquí. Búscalo en los HTML y reempláz
 - [x] Las campañas de "Post de resultados ads.pdf" en la cuenta publicitaria 794012149193596 son de Guaroshop: los anuncios salen como @guaroshop2023, y el informe de sep–oct coincide con los datos del mes anterior. Se publicó la tabla mes a mes de dic 2025 a oct 2026 (17.452 conversaciones, $4.888,69).
 - [x] Las campañas sin enlace también son de Guaroshop (confirmado).
 - [x] "TRAFICO - DICIEMBRE" es de Todo Cosmético (@todocosmetico.detal; también existe @todocosmetico.mayor). Tarjeta publicada.
-- [ ] Todo Cosmético: confirmar el año del periodo 29 nov – 2 ene (`[AÑO_TODOCOSMETICO]`).
+- [x] Todo Cosmético: 29 nov 2025 – 2 ene 2026.
 - [ ] Páginas 1 a 13 de "Post de resultados ads.pdf" (casa en Tijuana, higiene y desechables, artista, barbero, tráfico sep/nov 2025 y ene 2026): ¿de qué cliente es cada una?
 
 ## Anuncios sueltos (imágenes del chat)
-- [x] Castro Realty: reel "3 errores comunes al vender una casa" (@chemacastromx). Falta el año (`[AÑO_CASTRO]`).
-- [x] Reinaldo Cejas: anuncio "Si estás buscando un artista". Falta el país (`[PAÍS_REINALDO]`).
+- [x] Castro Realty: el reel es del 19 sep 2024 y los posts de la casa en La Remosa son de Castro (confirmado).
+- [x] Reinaldo Cejas: Venezuela.
 - [ ] Post "higiene y desechables" (8 abril) y post "Llegando..." (27 abril): ¿de qué cliente son? No se publicaron.
-- [ ] Reel "la patillera que tu barbero no quiere que conozcas" (Kemei, $21,31, 1.756 visitas): ¿es de Guaroshop? No se publicó.
-- [ ] Posts "Casa en venta en La Remosa, Tijuana" (Facebook: 110 mensajes; Instagram: 18,2k de alcance): ¿son de Castro Realty? No se publicaron.
+- [x] El reel de la patillera Kemei es de Guaroshop. Agregado a la galería del caso.
+- [x] Posts de la casa en La Remosa: de Castro Realty. Publicados en su tarjeta (110 mensajes, 24.700 personas alcanzadas). Falta el año exacto de esos posts.
