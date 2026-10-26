@@ -593,6 +593,23 @@ p { margin: 0 0 1em; }
 .check-list li { position: relative; padding-left: 1.9rem; font-size: 1.05rem; }
 .check-list li::before { content: "✓"; position: absolute; left: 0; top: 0; width: 1.35rem; height: 1.35rem; border-radius: 50%; background: var(--lavender); color: var(--navy); font-weight: 700; font-size: .8rem; display: inline-flex; align-items: center; justify-content: center; margin-top: .15rem; }
 
+/* Plan personalizado */
+.custom-plan {
+  display: grid; gap: 1.25rem; align-items: center;
+  margin-top: 1.5rem; padding: 1.5rem 1.25rem;
+  border-radius: var(--radius); background: var(--navy); color: var(--white);
+}
+.custom-plan h3 { font-size: 2rem; margin: .75rem 0 .4rem; }
+.custom-plan p { margin: 0; color: rgba(255,255,255,.92); max-width: 60ch; }
+
+/* Compromiso */
+.promise { margin-top: 2rem; }
+.promise h3 { font-size: 2rem; margin-bottom: .3rem; }
+.promise__lead { font-size: 1.05rem; max-width: 60ch; }
+.promise__list { list-style: none; margin: 1rem 0 0; padding: 0; display: grid; gap: .75rem; }
+.promise__list li { background: var(--white); border: 1px solid #E2E6ED; border-left: 5px solid var(--blue); border-radius: 10px; padding: .85rem 1rem; font-size: .95rem; }
+.promise__list strong { display: block; font-family: var(--font-display); font-weight: 400; font-size: 1.5rem; line-height: 1.1; color: var(--navy); }
+
 /* Cómo trabajo: recuadro lavanda */
 .steps {
   background: var(--lavender);
@@ -917,6 +934,8 @@ html[data-region="int"] [data-show="ve"] { display: none; }
   .step { grid-template-columns: 1fr; }
 
   .about { grid-template-columns: 320px 1fr; gap: 3rem; }
+  .custom-plan { grid-template-columns: 1fr auto; padding: 2rem; }
+  .promise__list { grid-template-columns: repeat(5, 1fr); }
   .case-hero { padding: 3.5rem 0 4.5rem; }
   .case-hero__grid { grid-template-columns: 1.2fr 1fr; gap: 3rem; }
   .facts { grid-template-columns: repeat(3, 1fr); }
