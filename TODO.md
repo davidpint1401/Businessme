@@ -16,10 +16,13 @@ Cada marcador `[ASÍ]` del sitio aparece aquí. Búscalo en los HTML y reempláz
 
 ## Imágenes (WebP con ancho y alto)
 - [x] Foto de "Sobre mí" (desde Drive)
-- [ ] `[CAPTURA_GUAROSHOP]`, `[CAPTURA_RUCHA]`: capturas de Ads Manager o de los informes
-- [ ] `[CAPTURA_CENTRO_PLAZA]`, `[CAPTURA_UNITRANS]`, `[CAPTURA_RUGGERI]`: capturas de las webs
+- [x] Guaroshop: captura del informe de reconocimiento en Acarigua (desde Drive)
+- [ ] `[CAPTURAS_RUCHA]`: capturas de Ads Manager o de los informes de Rucha (en Drive solo hay documentos de texto)
+- [x] Carátulas de las webs: maqueta de navegador con el nombre y la URL
+- [ ] `[CAPTURAS_CENTRO_PLAZA]`, `[CAPTURAS_FUNDACION_UNITRANS]`, `[CAPTURAS_RUGGERI_PIZZERIA]`: capturas reales de cada web en móvil y escritorio. Desde aquí no se pueden abrir los sitios en vercel.app.
 
-## Textos de casos web
+## Textos de casos web (casos/centro-plaza, casos/fundacion-unitrans, casos/ruggeri-pizzeria)
+- [ ] `[AÑO_...]`, `[RETO_...]`, `[PASO_1_...]`, `[PASO_3_...]`, `[DETALLE_TECNICO]` y `[RESULTADOS_...]` en cada página
 - [ ] `[DESCRIPCION_CENTRO_PLAZA]`: una línea sobre el proyecto
 - [ ] `[DESCRIPCION_UNITRANS]`: una línea sobre el proyecto
 - [ ] `[DESCRIPCION_RUGGERI]`: una línea sobre el proyecto conceptual
@@ -37,3 +40,16 @@ Cada marcador `[ASÍ]` del sitio aparece aquí. Búscalo en los HTML y reempláz
 - [x] Fabiola Beauty, "Tráfico junio": 3.570 visitas al perfil con $99,12 en 15 días (de "Post de resultados ads.pdf"). Falta confirmar el año.
 - [ ] Los 12 informes en PDF de la carpeta pesan más de 10 MB y son solo imágenes, por lo que no se pueden leer desde aquí. Subir una imagen (PNG/JPG) de la página de resumen de cada uno.
 - [ ] "Post de resultados ads.pdf": varias campañas no dicen de qué cliente son (casa en Tijuana, higiene y desechables, artista, barbero/patillera y las campañas mensuales sep 2025 – sep 2026). Indicar el cliente de cada una para poder publicarlas.
+
+## Casos de Ads (casos/guaroshop, casos/rucha)
+- [x] Guaroshop: cifras, tabla por campaña y captura, tomadas del informe 23 sep – 26 oct 2026
+- [x] Rucha: tabla mes a mes de sep 2025 a jun 2026, tomada de los informes de Drive
+- [ ] Rucha, junio 2026: el informe dice $427,17 en total, pero sus 4 campañas suman $407,05. En la tabla puse solo las 2 campañas de WhatsApp e interacciones ($198,06).
+- [ ] Rucha, mar–abr 2026: el informe dice $884,11, pero las 2 campañas suman $834,81. En la tabla aparecen por separado.
+- [ ] El informe de Guaroshop dice −57% en Acarigua, pero el cálculo ($0,47 → $0,2055) da −56%. Se dejó −56%.
+- [ ] "Cosméticos Paulita" en Drive es una propuesta, no resultados. No se publicó.
+
+## Pendiente
+- [ ] Versión en inglés (/en/ y /en/cases/...). Los enlaces EN de las páginas de casos ya apuntan ahí.
+- [ ] sitemap.xml, robots.txt, og-image.jpg y vercel.json
+- [ ] Archivo vacío `Informes` en la raíz del repo: ¿era una carpeta para los informes? Git no guarda carpetas vacías.
