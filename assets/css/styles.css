@@ -503,6 +503,14 @@ p { margin: 0 0 1em; }
 .bm-list a:hover { border-color: var(--blue); }
 .bm-list .flag { font-size: .8rem; color: var(--blue-text); white-space: nowrap; }
 
+.case-card__media--shot { position: relative; overflow: hidden; background: var(--gray-50); }
+.case-card__media--shot img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: top; }
+.case-hero__cover--shot { aspect-ratio: auto; overflow: hidden; background: var(--white); }
+.case-hero__cover--shot img { width: 100%; height: auto; }
+.check-list { list-style: none; margin: 1.25rem 0; padding: 0; display: grid; gap: .6rem; }
+.check-list li { position: relative; padding-left: 1.9rem; font-size: 1.05rem; }
+.check-list li::before { content: "✓"; position: absolute; left: 0; top: 0; width: 1.35rem; height: 1.35rem; border-radius: 50%; background: var(--lavender); color: var(--navy); font-weight: 700; font-size: .8rem; display: inline-flex; align-items: center; justify-content: center; margin-top: .15rem; }
+
 /* Cómo trabajo: recuadro lavanda */
 .steps {
   background: var(--lavender);
