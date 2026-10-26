@@ -41,10 +41,10 @@ Cada marcador `[ASÍ]` del sitio aparece aquí. Búscalo en los HTML y reempláz
 - [x] Informes recibidos por el chat (lote 1): Cabletoday, Mogar Decor, PLAFAM abril, junio y julio. Cifras y carátula en `assets/img/informes/`.
 - [x] Lote 2: Unalivio (may 2024) y PLAFAM septiembre (sep 2024). Cabletoday y Mogar llegaron repetidos (son los mismos archivos).
 - [ ] Faltan: Castro Realty, Pasto Sintético, Fabiola Beauty (Cosmetrafabiola), PLAFAM feb/mar y PLAFAM (4_Informe). Sus tarjetas tienen `[PERIODO_...]` y `[CIFRAS_PENDIENTES]`.
-- [ ] Unalivio: el informe dice "Ubicación: Chile" en la campaña, pero el público de Instagram es 67% de Venezuela. ¿El cliente es de Chile o de Venezuela? Por ahora la tarjeta dice Venezuela.
-- [ ] PLAFAM junio: el informe repite 1.681.621 impresiones, igual que abril. Puede ser un error de copia. No se publicaron las impresiones.
-- [ ] Mogar Decor: inversión de $2.841,05. ¿Está en pesos mexicanos o en dólares? No se publicó la inversión.
-- [ ] "Seguidores Instagram" en los informes de PLAFAM (3,3 mil / 3,7 mil / 5 mil): ¿son nuevos o el total de la cuenta? No se publicaron.
+- [x] Unalivio trabaja con público de Chile y de Venezuela (confirmado).
+- [x] PLAFAM junio: las impresiones repetidas son un error de copia (confirmado). No se publican.
+- [x] Mogar Decor: la inversión está en pesos mexicanos. Se publica "$2.841 MXN".
+- [x] Los seguidores de los informes de PLAFAM son nuevos (confirmado). Se publican.
 - [ ] "Post de resultados ads.pdf": varias campañas no dicen de qué cliente son (casa en Tijuana, higiene y desechables, artista, barbero/patillera y las campañas mensuales sep 2025 – sep 2026). Indicar el cliente de cada una para poder publicarlas.
 
 ## Casos de Ads (casos/guaroshop, casos/rucha)
@@ -62,6 +62,14 @@ Cada marcador `[ASÍ]` del sitio aparece aquí. Búscalo en los HTML y reempláz
 
 ## Guaroshop: historial de 11 meses
 - [x] Las campañas de "Post de resultados ads.pdf" en la cuenta publicitaria 794012149193596 son de Guaroshop: los anuncios salen como @guaroshop2023, y el informe de sep–oct coincide con los datos del mes anterior. Se publicó la tabla mes a mes de dic 2025 a oct 2026 (17.452 conversaciones, $4.888,69).
-- [ ] Confirmar que también son de Guaroshop las campañas sin enlace a la cuenta: Remarketing A26, Interacciones abril, Tráfico abril, Interacciones junio e Interacciones julio 2026.
-- [ ] La campaña "TRAFICO - DICIEMBRE" (29/11–02/01, Prokpil, Kaba, Ritual Botánico, Milagros) es de otra cuenta. ¿De qué cliente es? ¿Cosméticos Paulita? No se publicó.
+- [x] Las campañas sin enlace también son de Guaroshop (confirmado).
+- [x] "TRAFICO - DICIEMBRE" es de Todo Cosmético (@todocosmetico.detal; también existe @todocosmetico.mayor). Tarjeta publicada.
+- [ ] Todo Cosmético: confirmar el año del periodo 29 nov – 2 ene (`[AÑO_TODOCOSMETICO]`).
 - [ ] Páginas 1 a 13 de "Post de resultados ads.pdf" (casa en Tijuana, higiene y desechables, artista, barbero, tráfico sep/nov 2025 y ene 2026): ¿de qué cliente es cada una?
+
+## Anuncios sueltos (imágenes del chat)
+- [x] Castro Realty: reel "3 errores comunes al vender una casa" (@chemacastromx). Falta el año (`[AÑO_CASTRO]`).
+- [x] Reinaldo Cejas: anuncio "Si estás buscando un artista". Falta el país (`[PAÍS_REINALDO]`).
+- [ ] Post "higiene y desechables" (8 abril) y post "Llegando..." (27 abril): ¿de qué cliente son? No se publicaron.
+- [ ] Reel "la patillera que tu barbero no quiere que conozcas" (Kemei, $21,31, 1.756 visitas): ¿es de Guaroshop? No se publicó.
+- [ ] Posts "Casa en venta en La Remosa, Tijuana" (Facebook: 110 mensajes; Instagram: 18,2k de alcance): ¿son de Castro Realty? No se publicaron.
