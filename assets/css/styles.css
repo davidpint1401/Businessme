@@ -725,6 +725,8 @@ html[data-region="int"] [data-show="ve"] { display: none; }
 .table-note { margin-top: .75rem; font-size: .8rem; color: var(--gray-600); }
 
 .shot { margin: 1.5rem 0 0; max-width: 560px; }
+.gallery { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); align-items: start; }
+.gallery .shot { margin: 0; max-width: none; }
 .shot img { border-radius: var(--radius); box-shadow: var(--shadow); }
 .shot figcaption { margin-top: .6rem; font-size: .85rem; color: var(--gray-600); }
 

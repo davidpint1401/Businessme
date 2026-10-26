@@ -39,7 +39,9 @@ Cada marcador `[ASÍ]` del sitio aparece aquí. Búscalo en los HTML y reempláz
 - [ ] Rucha: el informe de octubre 2025 indica $460 de inversión para 556.010 de alcance y 34.466 visitas, y el de ago–sep 2025 indica $433,91. ¿De dónde salen los $1.029? Mientras tanto, la tarjeta no muestra la inversión.
 - [x] Fabiola Beauty, "Tráfico junio": 3.570 visitas al perfil con $99,12 en 15 días (de "Post de resultados ads.pdf"). Falta confirmar el año.
 - [x] Informes recibidos por el chat (lote 1): Cabletoday, Mogar Decor, PLAFAM abril, junio y julio. Cifras y carátula en `assets/img/informes/`.
-- [ ] Faltan (lotes siguientes): Castro Realty, Pasto Sintético, Unalivio, Fabiola Beauty (Cosmetrafabiola), PLAFAM feb/mar, PLAFAM septiembre y PLAFAM (4_Informe). Sus tarjetas ya existen con `[PERIODO_...]` y `[CIFRAS_PENDIENTES]`.
+- [x] Lote 2: Unalivio (may 2024) y PLAFAM septiembre (sep 2024). Cabletoday y Mogar llegaron repetidos (son los mismos archivos).
+- [ ] Faltan: Castro Realty, Pasto Sintético, Fabiola Beauty (Cosmetrafabiola), PLAFAM feb/mar y PLAFAM (4_Informe). Sus tarjetas tienen `[PERIODO_...]` y `[CIFRAS_PENDIENTES]`.
+- [ ] Unalivio: el informe dice "Ubicación: Chile" en la campaña, pero el público de Instagram es 67% de Venezuela. ¿El cliente es de Chile o de Venezuela? Por ahora la tarjeta dice Venezuela.
 - [ ] PLAFAM junio: el informe repite 1.681.621 impresiones, igual que abril. Puede ser un error de copia. No se publicaron las impresiones.
 - [ ] Mogar Decor: inversión de $2.841,05. ¿Está en pesos mexicanos o en dólares? No se publicó la inversión.
 - [ ] "Seguidores Instagram" en los informes de PLAFAM (3,3 mil / 3,7 mil / 5 mil): ¿son nuevos o el total de la cuenta? No se publicaron.
@@ -57,3 +59,9 @@ Cada marcador `[ASÍ]` del sitio aparece aquí. Búscalo en los HTML y reempláz
 - [ ] Versión en inglés (/en/ y /en/cases/...). Los enlaces EN de las páginas de casos ya apuntan ahí.
 - [ ] sitemap.xml, robots.txt, og-image.jpg y vercel.json
 - [ ] Archivo vacío `Informes` en la raíz del repo: ¿era una carpeta para los informes? Git no guarda carpetas vacías.
+
+## Guaroshop: historial de 11 meses
+- [x] Las campañas de "Post de resultados ads.pdf" en la cuenta publicitaria 794012149193596 son de Guaroshop: los anuncios salen como @guaroshop2023, y el informe de sep–oct coincide con los datos del mes anterior. Se publicó la tabla mes a mes de dic 2025 a oct 2026 (17.452 conversaciones, $4.888,69).
+- [ ] Confirmar que también son de Guaroshop las campañas sin enlace a la cuenta: Remarketing A26, Interacciones abril, Tráfico abril, Interacciones junio e Interacciones julio 2026.
+- [ ] La campaña "TRAFICO - DICIEMBRE" (29/11–02/01, Prokpil, Kaba, Ritual Botánico, Milagros) es de otra cuenta. ¿De qué cliente es? ¿Cosméticos Paulita? No se publicó.
+- [ ] Páginas 1 a 13 de "Post de resultados ads.pdf" (casa en Tijuana, higiene y desechables, artista, barbero, tráfico sep/nov 2025 y ene 2026): ¿de qué cliente es cada una?
