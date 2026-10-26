@@ -454,29 +454,38 @@ p { margin: 0 0 1em; }
 /* Informes anteriores */
 .reports { margin-top: 2.5rem; }
 .reports__intro { color: var(--gray-600); font-size: .95rem; }
-.reports__list {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: .6rem;
-  list-style: none;
-  margin: 1rem 0 0; padding: 0;
-}
-.reports__list a {
+
+/* Tarjetas de informes */
+.reports__grid { display: grid; gap: 1rem; list-style: none; margin: 1.25rem 0 0; padding: 0; }
+.report a {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: .75rem;
-  min-height: 52px;
-  padding: .7rem 1rem;
-  border-radius: 10px;
+  flex-direction: column;
+  height: 100%;
   background: var(--white);
-  border: 1px solid #E2E6ED;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
   color: var(--black);
   text-decoration: none;
-  font-weight: 500;
+  transition: transform .15s ease;
 }
-.reports__list a:hover { border-color: var(--blue); }
-.reports__list .flag { font-size: .75rem; font-weight: 700; color: var(--gray-600); white-space: nowrap; }
+.report a:hover { transform: translateY(-3px); }
+.report__cover { aspect-ratio: 16 / 9; background: var(--gray-50); }
+.report__cover img { width: 100%; height: 100%; object-fit: cover; }
+.report__cover--pending {
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .2rem;
+  background: var(--navy); color: var(--white); position: relative; overflow: hidden; isolation: isolate;
+}
+.report__cover--pending::after { content: ""; position: absolute; z-index: -1; width: 140px; height: 140px; right: -50px; top: -50px; border-radius: 50%; background: var(--blue); }
+.report__cover--pending strong { font-family: var(--font-display); font-weight: 400; font-size: 2rem; line-height: 1; }
+.report__cover--pending span { font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; opacity: .85; }
+.report__body { display: flex; flex-direction: column; flex: 1; padding: 1rem 1.1rem 1.1rem; }
+.report__meta { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; margin: 0 0 .4rem; font-size: .8rem; color: var(--gray-600); }
+.report__meta .pill { font-size: .65rem; padding: .35rem .6rem; }
+.report h4 { font-family: var(--font-display); font-weight: 400; font-size: 1.7rem; line-height: 1; margin: 0 0 .6rem; }
+.report__kpis { list-style: none; margin: 0 0 .9rem; padding: 0; display: grid; gap: .3rem; font-size: .875rem; color: var(--gray-600); }
+.report__kpis strong { font-family: var(--font-display); font-weight: 400; font-size: 1.35rem; color: var(--navy); margin-right: .2rem; }
+.report__link { margin-top: auto; font-weight: 600; color: var(--blue-text); font-size: .9rem; }
 
 /* Cómo trabajo: recuadro lavanda */
 .steps {
@@ -670,7 +679,6 @@ html[data-region="int"] [data-show="ve"] { display: none; }
 .payment li { font-size: .95rem; }
 .payment .pill { margin-right: .35rem; vertical-align: 1px; }
 
-.reports__list small { display: block; font-weight: 400; font-size: .8rem; color: var(--gray-600); }
 
 /* ---------- Páginas de casos ---------- */
 .breadcrumb ol { display: flex; flex-wrap: wrap; gap: .35rem; list-style: none; margin: 0; padding: .9rem 0; font-size: .85rem; color: var(--gray-600); }
@@ -762,7 +770,7 @@ html[data-region="int"] [data-show="ve"] { display: none; }
 /* ---------- 10. Breakpoints ---------- */
 @media (min-width: 600px) {
   .hero__actions { flex-direction: row; flex-wrap: wrap; }
-  .reports__list { grid-template-columns: repeat(2, 1fr); }
+  .reports__grid { grid-template-columns: repeat(2, 1fr); }
   .grid-2 { grid-template-columns: repeat(2, 1fr); }
   .grid-3 { grid-template-columns: repeat(2, 1fr); }
 }
@@ -793,7 +801,7 @@ html[data-region="int"] [data-show="ve"] { display: none; }
   .price-groups { grid-template-columns: repeat(3, 1fr); align-items: start; }
   .payment ul { grid-template-columns: repeat(2, 1fr); column-gap: 2rem; }
   .grid-3 { grid-template-columns: repeat(3, 1fr); }
-  .reports__list { grid-template-columns: repeat(3, 1fr); }
+  .reports__grid { grid-template-columns: repeat(3, 1fr); }
 
   .steps { padding: 2.25rem 2rem; }
   .steps ol { grid-template-columns: repeat(3, 1fr); gap: 2rem; }

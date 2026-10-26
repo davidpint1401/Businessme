@@ -30,7 +30,7 @@ Cada marcador `[ASÍ]` del sitio aparece aquí. Búscalo en los HTML y reempláz
 ## Informes de resultados (catálogo de WhatsApp)
 - [ ] `[LINK_FABIOLA_BEAUTY]`: en el Canva, Fabiola Beauty usa el mismo enlace que Pasto Sintético México (`wa.me/p/6743732579055610`). Enviar el enlace correcto.
 - [ ] Cifras clave de cada informe (Castro, Pasto Sintético, Mogar Decor, Cabletoday, Unalivio, Fabiola Beauty y PLAFAM). Desde aquí no se pueden abrir los enlaces de WhatsApp. Con las cifras se pueden mostrar como tarjetas KPI.
-- [ ] ¿Agregar Mogar Decor (México) a la lista de clientes? Aparece en el Canva pero no en la lista original.
+- [x] Mogar Decor (México) agregado a clientes, porque hay informe real.
 - [ ] Confirmar el nombre: "Castro Realty" (lista de clientes) o "Castro Inmobiliaria" (Canva)
 - [ ] Confirmar "Pasto Sintético Tijuana" (lista) o "Pasto Sintético México" (Canva)
 
@@ -38,7 +38,11 @@ Cada marcador `[ASÍ]` del sitio aparece aquí. Búscalo en los HTML y reempláz
 - [x] Guaroshop: periodo 23 sep – 26 oct 2026 (un mes), confirmado en el resumen
 - [ ] Rucha: el informe de octubre 2025 indica $460 de inversión para 556.010 de alcance y 34.466 visitas, y el de ago–sep 2025 indica $433,91. ¿De dónde salen los $1.029? Mientras tanto, la tarjeta no muestra la inversión.
 - [x] Fabiola Beauty, "Tráfico junio": 3.570 visitas al perfil con $99,12 en 15 días (de "Post de resultados ads.pdf"). Falta confirmar el año.
-- [ ] Los 12 informes en PDF de la carpeta pesan más de 10 MB y son solo imágenes, por lo que no se pueden leer desde aquí. Subir una imagen (PNG/JPG) de la página de resumen de cada uno.
+- [x] Informes recibidos por el chat (lote 1): Cabletoday, Mogar Decor, PLAFAM abril, junio y julio. Cifras y carátula en `assets/img/informes/`.
+- [ ] Faltan (lotes siguientes): Castro Realty, Pasto Sintético, Unalivio, Fabiola Beauty (Cosmetrafabiola), PLAFAM feb/mar, PLAFAM septiembre y PLAFAM (4_Informe). Sus tarjetas ya existen con `[PERIODO_...]` y `[CIFRAS_PENDIENTES]`.
+- [ ] PLAFAM junio: el informe repite 1.681.621 impresiones, igual que abril. Puede ser un error de copia. No se publicaron las impresiones.
+- [ ] Mogar Decor: inversión de $2.841,05. ¿Está en pesos mexicanos o en dólares? No se publicó la inversión.
+- [ ] "Seguidores Instagram" en los informes de PLAFAM (3,3 mil / 3,7 mil / 5 mil): ¿son nuevos o el total de la cuenta? No se publicaron.
 - [ ] "Post de resultados ads.pdf": varias campañas no dicen de qué cliente son (casa en Tijuana, higiene y desechables, artista, barbero/patillera y las campañas mensuales sep 2025 – sep 2026). Indicar el cliente de cada una para poder publicarlas.
 
 ## Casos de Ads (casos/guaroshop, casos/rucha)
