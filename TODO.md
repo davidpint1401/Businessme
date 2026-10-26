@@ -3,9 +3,9 @@
 Cada marcador `[ASÍ]` del sitio aparece aquí. Búscalo en los HTML y reemplázalo.
 
 ## Contacto y servicios
-- [ ] `[PRECIO_WEB]`: precio "desde" de landing pages y webs (indicar la moneda)
-- [ ] `[PRECIO_ADS]`: precio "desde" de la gestión mensual de Meta Ads
-- [ ] `[PRECIO_BM]`: precio "desde" de configuración y soporte de Business Manager
+- [x] Precios cargados (Venezuela / Internacional) y condiciones de pago
+- [ ] Confirmar que el mantenimiento mensual ($350 USDT con hosting) aplica también en Venezuela
+- [ ] Confirmar que "hasta 2–3 campañas + informe" aplica también a la mensualidad de Venezuela ($200)
 - [ ] `[CALENDLY_LINK]`: enlace de Calendly
 - [ ] `[FORMSPREE_ID]`: ID del formulario en formspree.io (va en `action="https://formspree.io/f/..."`)
 
@@ -15,7 +15,7 @@ Cada marcador `[ASÍ]` del sitio aparece aquí. Búscalo en los HTML y reempláz
 - [ ] Confirmar los perfiles de Instagram del JSON-LD y del footer (@davidpint1401, @lanavemk)
 
 ## Imágenes (WebP con ancho y alto)
-- [ ] `[FOTO_DAVID]`: foto para "Sobre mí" (cuadrada, mínimo 560×560)
+- [x] Foto de "Sobre mí" (desde Drive)
 - [ ] `[CAPTURA_GUAROSHOP]`, `[CAPTURA_RUCHA]`: capturas de Ads Manager o de los informes
 - [ ] `[CAPTURA_CENTRO_PLAZA]`, `[CAPTURA_UNITRANS]`, `[CAPTURA_RUGGERI]`: capturas de las webs
 
@@ -30,4 +30,10 @@ Cada marcador `[ASÍ]` del sitio aparece aquí. Búscalo en los HTML y reempláz
 - [ ] ¿Agregar Mogar Decor (México) a la lista de clientes? Aparece en el Canva pero no en la lista original.
 - [ ] Confirmar el nombre: "Castro Realty" (lista de clientes) o "Castro Inmobiliaria" (Canva)
 - [ ] Confirmar "Pasto Sintético Tijuana" (lista) o "Pasto Sintético México" (Canva)
-- [ ] Confirmar que las 3.875 conversaciones y los 2.398 seguidores de Guaroshop son "en un mes" (el periodo indicado es sep–oct 2026)
+
+## Datos encontrados en Drive
+- [x] Guaroshop: periodo 23 sep – 26 oct 2026 (un mes), confirmado en el resumen
+- [ ] Rucha: el informe de octubre 2025 indica $460 de inversión para 556.010 de alcance y 34.466 visitas, y el de ago–sep 2025 indica $433,91. ¿De dónde salen los $1.029? Mientras tanto, la tarjeta no muestra la inversión.
+- [x] Fabiola Beauty, "Tráfico junio": 3.570 visitas al perfil con $99,12 en 15 días (de "Post de resultados ads.pdf"). Falta confirmar el año.
+- [ ] Los 12 informes en PDF de la carpeta pesan más de 10 MB y son solo imágenes, por lo que no se pueden leer desde aquí. Subir una imagen (PNG/JPG) de la página de resumen de cada uno.
+- [ ] "Post de resultados ads.pdf": varias campañas no dicen de qué cliente son (casa en Tijuana, higiene y desechables, artista, barbero/patillera y las campañas mensuales sep 2025 – sep 2026). Indicar el cliente de cada una para poder publicarlas.

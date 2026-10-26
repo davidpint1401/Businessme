@@ -57,6 +57,9 @@ h1, h2, h3 {
 }
 p { margin: 0 0 1em; }
 
+/* Que el header fijo no tape el título al saltar a una sección */
+[id] { scroll-margin-top: 84px; }
+
 /* Foco visible en todo elemento interactivo */
 :focus-visible {
   outline: 3px solid var(--orange);
@@ -515,7 +518,7 @@ p { margin: 0 0 1em; }
   font-size: .85rem;
   padding: 1.5rem;
 }
-.about__photo-inner img { width: 100%; height: 100%; object-fit: cover; }
+.about__photo-inner img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .about__text p { font-size: 1.05rem; }
 .about__sign { font-family: var(--font-display); font-size: 1.6rem; color: var(--navy); }
 
@@ -562,6 +565,73 @@ p { margin: 0 0 1em; }
 .form__status.is-ok { color: #11733F; }
 .form__status.is-error { color: #B01F33; }
 .form__hp { position: absolute; left: -9999px; }
+
+/* Selector de región de precios (Venezuela / Internacional) */
+html[data-region="ve"] [data-show="int"],
+html[data-region="int"] [data-show="ve"] { display: none; }
+.region-switch {
+  display: none;              /* solo visible con JavaScript */
+  gap: .25rem;
+  padding: .3rem;
+  margin: .25rem 0 0;
+  border-radius: var(--radius-pill);
+  background: var(--white);
+  border: 1px solid #DDE2EA;
+}
+.js .region-switch { display: inline-flex; }
+.region-switch button {
+  min-height: 44px;
+  padding: .5rem 1.1rem;
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: transparent;
+  font: inherit;
+  font-weight: 600;
+  font-size: .95rem;
+  color: var(--black);
+  cursor: pointer;
+}
+.region-switch button[aria-pressed="true"] { background: var(--navy); color: var(--white); }
+
+/* Lista de precios */
+.price-groups { display: grid; gap: 1.25rem; margin-top: 1.5rem; }
+.price-group {
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.25rem 1.1rem .5rem;
+}
+.price-group h3 { font-size: 1.7rem; margin-bottom: .5rem; }
+.price-list { list-style: none; margin: 0; padding: 0; }
+.price-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: .85rem 0;
+  border-top: 1px solid #EEF0F4;
+}
+.price-list h4 { margin: 0; font-size: 1rem; font-weight: 600; }
+.price-list p { margin: 0; font-size: .875rem; color: var(--gray-600); }
+.price-list .price-list__price {
+  flex: none;
+  max-width: 45%;
+  text-align: right;
+  font-family: var(--font-display);
+  font-size: 1.7rem;
+  line-height: 1.1;
+  color: var(--navy);
+}
+.price-list__price small { display: block; font-family: var(--font-body); font-size: .75rem; color: var(--gray-600); }
+.card__price strong small { font-family: var(--font-body); font-size: .9rem; color: var(--gray-600); }
+
+/* Condiciones de pago: recuadro lavanda */
+.payment h3 { font-size: 1.8rem; }
+.payment ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .7rem; }
+.payment li { font-size: .95rem; }
+.payment .pill { margin-right: .35rem; vertical-align: 1px; }
+
+.reports__list small { display: block; font-weight: 400; font-size: .8rem; color: var(--gray-600); }
 
 /* ---------- 8. Footer ---------- */
 .site-footer { background: var(--black); color: #C9CED6; padding: 2.5rem 0 6rem; font-size: .9rem; }
@@ -627,6 +697,8 @@ p { margin: 0 0 1em; }
 
   .section { padding: 5rem 0; }
   .cards { grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+  .price-groups { grid-template-columns: repeat(3, 1fr); align-items: start; }
+  .payment ul { grid-template-columns: repeat(2, 1fr); column-gap: 2rem; }
   .grid-3 { grid-template-columns: repeat(3, 1fr); }
   .reports__list { grid-template-columns: repeat(3, 1fr); }
 

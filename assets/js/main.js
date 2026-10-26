@@ -26,6 +26,27 @@
     });
   }
 
+  // Selector de precios Venezuela / Internacional
+  var root = document.documentElement;
+  root.classList.add('js');
+  var setRegion = function (region) {
+    root.setAttribute('data-region', region);
+    document.querySelectorAll('[data-set-region]').forEach(function (b) {
+      b.setAttribute('aria-pressed', String(b.getAttribute('data-set-region') === region));
+    });
+  };
+  try {
+    var saved = localStorage.getItem('region');
+    if (saved === 've' || saved === 'int') setRegion(saved);
+  } catch (e) {}
+  document.querySelectorAll('[data-set-region]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var region = b.getAttribute('data-set-region');
+      setRegion(region);
+      try { localStorage.setItem('region', region); } catch (e) {}
+    });
+  });
+
   // Año actual en el footer
   document.querySelectorAll('[data-year]').forEach(function (el) {
     el.textContent = new Date().getFullYear();

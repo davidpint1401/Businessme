@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="es" data-region="ve">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -52,7 +52,10 @@
     "areaServed": ["VE", "MX", "Worldwide"],
     "founder": { "@type": "Person", "name": "David Pinto", "jobTitle": "Meta Ads Manager y desarrollador front-end" },
     "sameAs": ["https://www.instagram.com/davidpint1401/", "https://www.instagram.com/lanavemk/"],
-    "knowsLanguage": ["es", "en"]
+    "knowsLanguage": ["es", "en"],
+    "priceRange": "USD 20 – 1.000+",
+    "currenciesAccepted": "USD, USDT, VES",
+    "paymentAccepted": "USD, USDT, bolívares a tasa USDT"
   }
   </script>
 
@@ -113,6 +116,7 @@
       <nav class="site-nav" id="menu" aria-label="Principal">
         <ul>
           <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#precios">Precios</a></li>
           <li><a href="#casos">Casos</a></li>
           <li><a href="#como-trabajo">Cómo trabajo</a></li>
           <li><a href="#sobre-mi">Sobre mí</a></li>
@@ -180,6 +184,10 @@
       <div class="container">
         <h2 class="section-title" id="servicios-title">Servicios</h2>
         <p class="section-lead">Tres formas de trabajar juntos. Puedes contratar una sola o combinarlas.</p>
+        <div class="region-switch" role="group" aria-label="Ver precios para">
+          <button type="button" data-set-region="ve" aria-pressed="true">Venezuela</button>
+          <button type="button" data-set-region="int" aria-pressed="false">Internacional</button>
+        </div>
 
         <ul class="cards">
           <li class="card">
@@ -192,7 +200,7 @@
               <li>Botón de WhatsApp y formulario de contacto</li>
               <li>Lista para recibir el tráfico de tus anuncios</li>
             </ul>
-            <p class="card__price">desde <strong>[PRECIO_WEB]</strong></p>
+            <p class="card__price">Landing page desde <strong><span data-show="ve">$150</span><span data-show="int">$350</span></strong></p>
             <a class="card__cta" href="https://wa.me/584141305217?text=Hola%20David%2C%20quiero%20cotizar%20una%20p%C3%A1gina%20web%20para%20mi%20negocio." target="_blank" rel="noopener">Cotizar mi web →</a>
           </li>
           <li class="card">
@@ -205,7 +213,7 @@
               <li>Segmentación, creatividades y optimización</li>
               <li>Informe mensual con resultados claros</li>
             </ul>
-            <p class="card__price">desde <strong>[PRECIO_ADS]</strong> / mes</p>
+            <p class="card__price">Mensualidad desde <strong><span data-show="ve">$200</span><span data-show="int">$350</span> <small>/ mes</small></strong> hasta 2–3 campañas con informe</p>
             <a class="card__cta" href="https://wa.me/584141305217?text=Hola%20David%2C%20quiero%20informaci%C3%B3n%20sobre%20la%20gesti%C3%B3n%20mensual%20de%20Meta%20Ads." target="_blank" rel="noopener">Quiero campañas →</a>
           </li>
           <li class="card">
@@ -218,15 +226,94 @@
               <li>Píxel, métodos de pago y permisos</li>
               <li>Soporte ante bloqueos y restricciones</li>
             </ul>
-            <p class="card__price">desde <strong>[PRECIO_BM]</strong></p>
+            <p class="card__price">Portafolio comercial completo <strong><span data-show="ve">$180</span><span data-show="int">$250</span></strong></p>
             <a class="card__cta" href="https://wa.me/584141305217?text=Hola%20David%2C%20necesito%20ayuda%20con%20mi%20Business%20Manager." target="_blank" rel="noopener">Necesito soporte →</a>
           </li>
         </ul>
       </div>
     </section>
 
+    <!-- 3b. PRECIOS -->
+    <section class="section section--tint" id="precios" aria-labelledby="precios-title">
+      <div class="container">
+        <h2 class="section-title" id="precios-title">Precios</h2>
+        <p class="section-lead">Precios en dólares. Elige dónde está tu negocio para ver la tarifa que te corresponde.</p>
+        <div class="region-switch" role="group" aria-label="Ver precios para">
+          <button type="button" data-set-region="ve" aria-pressed="true">Venezuela</button>
+          <button type="button" data-set-region="int" aria-pressed="false">Internacional</button>
+        </div>
+        <div class="price-groups">
+          <div class="price-group">
+            <h3>Páginas web</h3>
+            <ul class="price-list">
+              <li>
+                <div><h4>Landing page</h4><p>1 página, adaptada a móvil, botón de WhatsApp y publicada.</p></div>
+                <p class="price-list__price"><span data-show="ve">$150–200</span><span data-show="int">$350</span></p>
+              </li>
+              <li>
+                <div><h4>Web de negocio</h4><p>4–5 páginas, como Fundación Unitrans.</p></div>
+                <p class="price-list__price"><span data-show="ve">$300–400</span><span data-show="int">$700</span></p>
+              </li>
+              <li>
+                <div><h4>Web con buscador o catálogo</h4><p>Como el Directorio Centro Plaza o Ruggeri Pizzería.</p></div>
+                <p class="price-list__price"><span data-show="ve">desde $500</span><span data-show="int">desde $1.000</span></p>
+              </li>
+              <li>
+                <div><h4>Mantenimiento mensual</h4><p>Cambios, soporte y hosting incluido.</p></div>
+                <p class="price-list__price">$350 <small>USDT / mes</small></p>
+              </li>
+            </ul>
+          </div>
+          <div class="price-group">
+            <h3>Meta Ads y Business Manager</h3>
+            <ul class="price-list">
+              <li>
+                <div><h4>Portafolio comercial completo</h4><p>Configuración de Business Manager, páginas, cuentas publicitarias y píxel.</p></div>
+                <p class="price-list__price"><span data-show="ve">$180</span><span data-show="int">$250</span></p>
+              </li>
+              <li>
+                <div><h4>Gestión por campaña</h4><p>Una campaña en Facebook e Instagram.</p></div>
+                <p class="price-list__price"><span data-show="ve">$60</span><span data-show="int">$120</span></p>
+              </li>
+              <li>
+                <div><h4>Mensualidad de acompañamiento</h4><p>Hasta 2–3 campañas al mes con informe de resultados.</p></div>
+                <p class="price-list__price"><span data-show="ve">$200</span><span data-show="int">$350</span> <small>/ mes</small></p>
+              </li>
+              <li>
+                <div><h4>Asesoría</h4><p>Sesión de 1 hora.</p></div>
+                <p class="price-list__price"><span data-show="ve">$40</span><span data-show="int">$60</span></p>
+              </li>
+            </ul>
+          </div>
+          <div class="price-group">
+            <h3>Contenido para redes</h3>
+            <ul class="price-list">
+              <li>
+                <div><h4>Diseño para redes</h4><p>Por pieza.</p></div>
+                <p class="price-list__price"><span data-show="ve">$20</span><span data-show="int">$35 <small>· paquete de 5 por $150</small></span></p>
+              </li>
+              <li>
+                <div><h4>Video de 15 segundos</h4><p>Edición para reels y anuncios.</p></div>
+                <p class="price-list__price"><span data-show="ve">$40</span><span data-show="int">$80</span></p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="steps payment" aria-labelledby="pagos-title">
+          <h3 id="pagos-title">Formas y condiciones de pago</h3>
+          <ul>
+            <li><span class="pill">Venezuela</span> Pago en divisas, o en bolívares a tasa USDT.</li>
+            <li><span class="pill pill--orange">Internacional</span> Pago únicamente en USDT (cripto).</li>
+            <li><strong>Portafolio comercial y gestión de Ads:</strong> 100% al iniciar.</li>
+            <li><strong>Páginas web y demás proyectos:</strong> 60% al iniciar y 40% al entregar.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
     <!-- 4. CASOS DESTACADOS -->
-    <section class="section section--tint" id="casos" aria-labelledby="casos-title">
+    <section class="section" id="casos" aria-labelledby="casos-title">
       <div class="container">
         <h2 class="section-title" id="casos-title">Casos destacados</h2>
         <p class="section-lead">Resultados reales de campañas y proyectos web. Haz clic en cada caso para ver el detalle.</p>
@@ -251,7 +338,7 @@
               <div class="case-card__body">
                 <p class="case-card__meta">Rucha · Sep–oct 2025</p>
                 <h4>Rucha</h4>
-                <p class="case-card__kpi">556.010 <small>personas alcanzadas con $1.029</small></p>
+                <p class="case-card__kpi">556.010 <small>personas alcanzadas · 34.466 visitas al perfil a $0,03</small></p>
                 <p class="case-card__link"><a href="/casos/rucha/">Ver caso completo →</a></p>
               </div>
             </li>
@@ -305,7 +392,7 @@
             <li><a href="https://wa.me/p/27905666005746012/584141305217" target="_blank" rel="noopener">Mogar Decor <span class="flag">MÉXICO</span></a></li>
             <li><a href="https://wa.me/p/7066449060136767/584141305217" target="_blank" rel="noopener">Cabletoday <span class="flag">VENEZUELA</span></a></li>
             <li><a href="https://wa.me/p/6529300477169522/584141305217" target="_blank" rel="noopener">Unalivio <span class="flag">VENEZUELA</span></a></li>
-            <li><a href="[LINK_FABIOLA_BEAUTY]" target="_blank" rel="noopener">Fabiola Beauty <span class="flag">VENEZUELA</span></a></li>
+            <li><a href="[LINK_FABIOLA_BEAUTY]" target="_blank" rel="noopener"><span>Fabiola Beauty <small>3.570 visitas al perfil con $99,12 en 15 días</small></span> <span class="flag">VENEZUELA</span></a></li>
             <li><a href="https://wa.me/p/8246281295492621/584141305217" target="_blank" rel="noopener">PLAFAM · febrero/marzo <span class="flag">VENEZUELA</span></a></li>
             <li><a href="https://wa.me/p/7808746129171384/584141305217" target="_blank" rel="noopener">PLAFAM · abril/mayo <span class="flag">VENEZUELA</span></a></li>
             <li><a href="https://wa.me/p/9171364322890497/584141305217" target="_blank" rel="noopener">PLAFAM · junio <span class="flag">VENEZUELA</span></a></li>
@@ -374,8 +461,7 @@
       <div class="container about">
         <div class="about__photo">
           <div class="about__photo-inner">
-            <!-- Reemplazar por: <img src="/assets/img/david-pinto.webp" alt="David Pinto" width="560" height="560" loading="lazy"> -->
-            [FOTO_DAVID]
+            <img src="/assets/img/david-pinto.webp" srcset="/assets/img/david-pinto-280.webp 280w, /assets/img/david-pinto.webp 560w" sizes="(min-width: 900px) 320px, 80vw" alt="David Pinto, fundador de La Nave Marketing" width="560" height="560" loading="lazy">
           </div>
         </div>
         <div class="about__text">
@@ -466,6 +552,7 @@
           <h2 class="visually-hidden">Secciones</h2>
           <ul>
             <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#precios">Precios</a></li>
             <li><a href="#casos">Casos</a></li>
             <li><a href="#sobre-mi">Sobre mí</a></li>
             <li><a href="#contacto">Contacto</a></li>
