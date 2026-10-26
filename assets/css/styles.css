@@ -492,6 +492,17 @@ p { margin: 0 0 1em; }
 .report__kpis strong { font-family: var(--font-display); font-weight: 400; font-size: 1.35rem; color: var(--navy); margin-right: .2rem; }
 .report__link { margin-top: auto; font-weight: 600; color: var(--blue-text); font-size: .9rem; }
 
+.shot.shot--wide { max-width: none; margin-top: 1rem; }
+.bm-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); gap: .6rem; list-style: none; margin: 1rem 0 0; padding: 0; }
+.bm-list a {
+  display: flex; align-items: center; justify-content: space-between; gap: .5rem;
+  min-height: 48px; padding: .6rem 1rem;
+  background: var(--white); border: 1px solid #E2E6ED; border-radius: 10px;
+  color: var(--black); font-weight: 600; text-decoration: none;
+}
+.bm-list a:hover { border-color: var(--blue); }
+.bm-list .flag { font-size: .8rem; color: var(--blue-text); white-space: nowrap; }
+
 /* Cómo trabajo: recuadro lavanda */
 .steps {
   background: var(--lavender);

@@ -78,3 +78,8 @@ Cada marcador `[ASÍ]` del sitio aparece aquí. Búscalo en los HTML y reempláz
 ## Branding
 - [x] Sección "Branding y manuales de marca" con AE Galería, Arte Express Design, Mobiles Design y Ladybox (enlaces del catálogo).
 - [ ] Imagen de portada para cada manual (opcional): enviar una captura de cada uno.
+
+## Portafolios comerciales (Business Manager)
+- [x] Sección con los 10 portafolios del catálogo y la lámina del Canva como imagen.
+- [ ] 67 capturas de Business Manager en Drive (2022–2024): no se publicaron tal cual porque muestran correos de terceros, métodos de pago, saldos e IDs de cuenta. Si David elige algunas, se recortan o difuminan esos datos antes de publicarlas.
+- [x] Todo Cosmético: suma la campaña de @todocosmeticos.mayor (22 jul – 22 ago 2026).
