@@ -385,28 +385,60 @@ p { margin: 0 0 1em; }
   transition: transform .15s ease, box-shadow .15s ease;
 }
 .case-card:hover { transform: translateY(-3px); box-shadow: 0 10px 30px rgba(11,11,11,.12); }
-.case-card__media {
-  aspect-ratio: 16 / 10;
-  background: var(--navy);
+.case-card__media { aspect-ratio: 16 / 10; }
+
+/* Carátulas de casos: fondo de marca + círculo azul + logo o maqueta de navegador */
+.cover {
   position: relative;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgba(255,255,255,.75);
-  font-size: .85rem;
-  text-align: center;
-  padding: 1rem;
+  isolation: isolate;
+  background: var(--navy);
 }
-.case-card__media::after {
+.cover::after {
   content: "";
   position: absolute;
-  width: 160px; height: 160px;
-  right: -60px; top: -60px;
+  z-index: -1;
+  width: 180px; height: 180px;
+  right: -60px; top: -70px;
   border-radius: 50%;
   background: var(--blue);
 }
-.case-card__media img { width: 100%; height: 100%; object-fit: cover; position: absolute; inset: 0; }
+.cover img { width: auto; height: 78%; max-height: 260px; object-fit: contain; }
+.cover img.cover__wide { width: 72%; height: auto; max-height: none; }
+.cover--guaroshop { background: #010101; }
+.cover--rucha { background: #3C3931; }
+.cover--rucha::after, .cover--guaroshop::after { opacity: .9; }
+.browser {
+  width: 84%;
+  background: var(--white);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(0,0,0,.3);
+}
+.browser__bar {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .45rem .6rem;
+  background: #E9EDF2;
+  font-size: .7rem;
+  color: var(--gray-600);
+  white-space: nowrap;
+  overflow: hidden;
+}
+.browser__dots { display: inline-flex; gap: 4px; flex: none; }
+.browser__dots i { width: 8px; height: 8px; border-radius: 50%; background: var(--red); }
+.browser__dots i:nth-child(2) { background: var(--orange); }
+.browser__dots i:nth-child(3) { background: var(--blue); }
+.browser__url { overflow: hidden; text-overflow: ellipsis; }
+.browser__body { display: grid; gap: .45rem; padding: .9rem .9rem 1.1rem; }
+.browser__body strong { font-family: var(--font-display); font-weight: 400; font-size: 1.5rem; line-height: 1; color: var(--navy); }
+.browser__body span { height: 8px; border-radius: 4px; background: var(--lavender); }
+.browser__body span:nth-of-type(2) { width: 80%; }
+.browser__body span:nth-of-type(3) { width: 55%; background: var(--orange); }
 .case-card__body { padding: 1.1rem 1.1rem 1.25rem; display: flex; flex-direction: column; flex: 1; }
 .case-card__meta { font-size: .8rem; color: var(--gray-600); margin-bottom: .25rem; }
 .case-card h4 { font-family: var(--font-display); font-weight: 400; font-size: 1.75rem; line-height: 1.05; margin: 0 0 .5rem; }
@@ -487,6 +519,13 @@ p { margin: 0 0 1em; }
   font-size: .95rem;
 }
 .clients li small { font-weight: 500; color: var(--gray-600); }
+
+/* Marcas estrella */
+.stars__title { margin: 1.5rem 0 .75rem; font-size: 1rem; }
+.stars { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .75rem; list-style: none; margin: 0 0 1.5rem; padding: 0; max-width: 560px; }
+.stars a { display: block; text-decoration: none; color: var(--black); font-weight: 600; font-size: .85rem; text-align: center; }
+.stars img { width: 100%; aspect-ratio: 1; border-radius: var(--radius); box-shadow: var(--shadow); margin-bottom: .4rem; transition: transform .15s ease; }
+.stars a:hover img { transform: translateY(-3px); }
 
 /* Sobre mí */
 .about { display: grid; gap: 1.5rem; align-items: center; }
@@ -637,13 +676,8 @@ html[data-region="int"] [data-show="ve"] { display: none; }
 .site-footer { background: var(--black); color: #C9CED6; padding: 2.5rem 0 6rem; font-size: .9rem; }
 .site-footer a { color: var(--white); }
 .site-footer__grid { display: grid; gap: 1.5rem; }
-.site-footer__logo {
-  display: inline-block;
-  background: var(--white);
-  border-radius: 12px;
-  padding: .5rem .75rem;
-}
-.site-footer__logo img { width: 73px; height: 60px; }
+.site-footer__logo { display: inline-block; }
+.site-footer__logo img { width: 88px; height: 72px; }
 .site-footer ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .4rem; }
 .site-footer__bottom { border-top: 1px solid #2A2F36; margin-top: 2rem; padding-top: 1.25rem; }
 
