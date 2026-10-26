@@ -28,9 +28,10 @@ Cada marcador `[ASÍ]` del sitio aparece aquí. Búscalo en los HTML y reempláz
 - [ ] `[DESCRIPCION_RUGGERI]`: una línea sobre el proyecto conceptual
 
 ## Informes de resultados (catálogo de WhatsApp)
-- [ ] `[LINK_FABIOLA_BEAUTY]`: en el Canva, Fabiola Beauty usa el mismo enlace que Pasto Sintético México (`wa.me/p/6743732579055610`). Enviar el enlace correcto.
+- [x] Fabiola Beauty: 6 campañas de jun 2025 a feb 2026, con enlace al catálogo `wa.me/p/6743732579055610`.
+- [ ] `[LINK_PASTO_SINTETICO]`: el enlace que tenía Pasto Sintético en el Canva es en realidad el de Fabiola. Enviar el enlace correcto de Pasto Sintético.
 - [ ] Cifras clave de cada informe (Castro, Pasto Sintético, Mogar Decor, Cabletoday, Unalivio, Fabiola Beauty y PLAFAM). Desde aquí no se pueden abrir los enlaces de WhatsApp. Con las cifras se pueden mostrar como tarjetas KPI.
-- [ ] ¿Agregar Mogar Decor (México) a la lista de clientes? Aparece en el Canva pero no en la lista original.
+- [x] Mogar Decor (México) agregado a clientes, porque hay informe real.
 - [ ] Confirmar el nombre: "Castro Realty" (lista de clientes) o "Castro Inmobiliaria" (Canva)
 - [ ] Confirmar "Pasto Sintético Tijuana" (lista) o "Pasto Sintético México" (Canva)
 
@@ -38,7 +39,13 @@ Cada marcador `[ASÍ]` del sitio aparece aquí. Búscalo en los HTML y reempláz
 - [x] Guaroshop: periodo 23 sep – 26 oct 2026 (un mes), confirmado en el resumen
 - [ ] Rucha: el informe de octubre 2025 indica $460 de inversión para 556.010 de alcance y 34.466 visitas, y el de ago–sep 2025 indica $433,91. ¿De dónde salen los $1.029? Mientras tanto, la tarjeta no muestra la inversión.
 - [x] Fabiola Beauty, "Tráfico junio": 3.570 visitas al perfil con $99,12 en 15 días (de "Post de resultados ads.pdf"). Falta confirmar el año.
-- [ ] Los 12 informes en PDF de la carpeta pesan más de 10 MB y son solo imágenes, por lo que no se pueden leer desde aquí. Subir una imagen (PNG/JPG) de la página de resumen de cada uno.
+- [x] Informes recibidos por el chat (lote 1): Cabletoday, Mogar Decor, PLAFAM abril, junio y julio. Cifras y carátula en `assets/img/informes/`.
+- [x] Lote 2: Unalivio (may 2024) y PLAFAM septiembre (sep 2024). Cabletoday y Mogar llegaron repetidos (son los mismos archivos).
+- [ ] Faltan: Castro Realty, Pasto Sintético, Fabiola Beauty (Cosmetrafabiola), PLAFAM feb/mar y PLAFAM (4_Informe). Sus tarjetas tienen `[PERIODO_...]` y `[CIFRAS_PENDIENTES]`.
+- [x] Unalivio trabaja con público de Chile y de Venezuela (confirmado).
+- [x] PLAFAM junio: las impresiones repetidas son un error de copia (confirmado). No se publican.
+- [x] Mogar Decor: la inversión está en pesos mexicanos. Se publica "$2.841 MXN".
+- [x] Los seguidores de los informes de PLAFAM son nuevos (confirmado). Se publican.
 - [ ] "Post de resultados ads.pdf": varias campañas no dicen de qué cliente son (casa en Tijuana, higiene y desechables, artista, barbero/patillera y las campañas mensuales sep 2025 – sep 2026). Indicar el cliente de cada una para poder publicarlas.
 
 ## Casos de Ads (casos/guaroshop, casos/rucha)
@@ -53,3 +60,26 @@ Cada marcador `[ASÍ]` del sitio aparece aquí. Búscalo en los HTML y reempláz
 - [ ] Versión en inglés (/en/ y /en/cases/...). Los enlaces EN de las páginas de casos ya apuntan ahí.
 - [ ] sitemap.xml, robots.txt, og-image.jpg y vercel.json
 - [ ] Archivo vacío `Informes` en la raíz del repo: ¿era una carpeta para los informes? Git no guarda carpetas vacías.
+
+## Guaroshop: historial de 11 meses
+- [x] Las campañas de "Post de resultados ads.pdf" en la cuenta publicitaria 794012149193596 son de Guaroshop: los anuncios salen como @guaroshop2023, y el informe de sep–oct coincide con los datos del mes anterior. Se publicó la tabla mes a mes de dic 2025 a oct 2026 (17.560 conversaciones, $5.011,11, incluidas las 2 campañas de San Valentín).
+- [x] Las campañas sin enlace también son de Guaroshop (confirmado).
+- [x] "TRAFICO - DICIEMBRE" es de Todo Cosmético (@todocosmetico.detal; también existe @todocosmetico.mayor). Tarjeta publicada.
+- [x] Todo Cosmético: 29 nov 2025 – 2 ene 2026.
+- [ ] Páginas 1 a 13 de "Post de resultados ads.pdf" (casa en Tijuana, higiene y desechables, artista, barbero, tráfico sep/nov 2025 y ene 2026): ¿de qué cliente es cada una?
+
+## Anuncios sueltos (imágenes del chat)
+- [x] Castro Realty: el reel es del 19 sep 2024 y los posts de la casa en La Remosa son de Castro (confirmado).
+- [x] Reinaldo Cejas: Venezuela.
+- [x] Los posts "higiene y desechables" y "Llegando..." no se publican (decisión de David).
+- [x] El reel de la patillera Kemei es de Guaroshop. Agregado a la galería del caso.
+- [x] Posts de la casa en La Remosa: de Castro Realty. Publicados en su tarjeta (110 mensajes, 24.700 personas alcanzadas). Se publican como 2024 (confirmado).
+
+## Branding
+- [x] Sección "Branding y manuales de marca" con AE Galería, Arte Express Design, Mobiles Design y Ladybox (enlaces del catálogo).
+- [ ] Imagen de portada para cada manual (opcional): enviar una captura de cada uno.
+
+## Portafolios comerciales (Business Manager)
+- [x] Sección con los 10 portafolios del catálogo y la lámina del Canva como imagen.
+- [ ] 67 capturas de Business Manager en Drive (2022–2024): no se publicaron tal cual porque muestran correos de terceros, métodos de pago, saldos e IDs de cuenta. Si David elige algunas, se recortan o difuminan esos datos antes de publicarlas.
+- [x] Todo Cosmético: suma la campaña de @todocosmeticos.mayor (22 jul – 22 ago 2026).
