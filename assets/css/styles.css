@@ -754,6 +754,9 @@ p { margin: 0 0 1em; }
 /* Selector de región de precios (Venezuela / Internacional) */
 html[data-region="ve"] [data-show="int"],
 html[data-region="int"] [data-show="ve"] { display: none; }
+/* Mientras se detecta el país no se muestra ningún precio ni el selector */
+html.geo-pending [data-show],
+html.geo-pending .region-switch { visibility: hidden; }
 .region-switch {
   display: none;              /* solo visible con JavaScript */
   gap: .25rem;
