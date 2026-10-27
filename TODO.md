@@ -2,10 +2,11 @@
 
 ## Para publicar (prioridad)
 - [ ] `[DOMINIO]`: reemplazarlo en todos los archivos (comando en README.md) y regenerar el inglés.
-- [ ] `[FORMSPREE_ID]`: crear el formulario en formspree.io.
-- [ ] `[CALENDLY_LINK]`: enlace de Calendly.
-- [ ] Pasto Sintético: `[LINK_PASTO_SINTETICO]`, `[PERIODO_PASTO]` y cifras. Si no hay informe, quitar la tarjeta.
-- [ ] PLAFAM febrero/marzo: año y cifras del informe.
+- [x] Contacto solo por WhatsApp Business: se quitó Calendly y el formulario abre WhatsApp (ya no usa Formspree).
+- [x] Pasto Sintético: cifras del informe (9 oct – 17 nov).
+- [x] Pasto Sintético: 2024, enlace wa.me/p/6743732579055610.
+- [ ] Pasto Sintético y Fabiola Beauty usan el mismo enlace del catálogo (6743732579055610). Confirmar cuál es de cada uno.
+- [x] PLAFAM febrero/marzo 2024: cifras publicadas.
 - [ ] Rucha: `[CAPTURAS_RUCHA]` (capturas de los informes o de Ads Manager).
 
 ## Hecho en esta etapa
@@ -93,7 +94,13 @@ Cada marcador `[ASÍ]` del sitio aparece aquí. Búscalo en los HTML y reempláz
 - [x] El reel de la patillera Kemei es de Guaroshop. Agregado a la galería del caso.
 - [x] Posts de la casa en La Remosa: de Castro Realty. Publicados en su tarjeta (110 mensajes, 24.700 personas alcanzadas). Se publican como 2024 (confirmado).
 
+## Mis inicios
+- [x] 31 publicaciones promocionadas (PDF «Post Resultados»), en un desplegable cerrado bajo los informes.
+- [x] Impulso Ads era la marca anterior (se aclara en el texto). Se borró el número 0426 788 4258 de las 31 imágenes.
+
 ## Branding
+- [x] Manuales de Centro Plaza, Unitrans y Escape Tours, y portada de Arte Express Design.
+- [x] Portadas de AE Galería, Mobiles Design y Ladybox.
 - [x] Sección "Branding y manuales de marca" con AE Galería, Arte Express Design, Mobiles Design y Ladybox (enlaces del catálogo).
 - [ ] Imagen de portada para cada manual (opcional): enviar una captura de cada uno.
 

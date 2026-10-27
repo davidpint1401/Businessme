@@ -49,8 +49,7 @@ En `index.html` cada precio tiene dos versiones: `<span data-show="ve">` para Ve
   ```
   grep -rl "\[DOMINIO\]" --exclude-dir=.git . | xargs sed -i 's/\[DOMINIO\]/tudominio.com/g'
   ```
-- **Formulario:** crea un formulario gratis en formspree.io y reemplaza `[FORMSPREE_ID]` en `index.html`.
-- **Calendly:** reemplaza `[CALENDLY_LINK]` en `index.html`.
+- **Formulario:** no necesita servicio externo. Al enviarlo se abre tu WhatsApp Business (+58 414 130 5217) con el mensaje armado. El número está en el atributo `data-wa` del formulario.
 - Después corre `python3 tools/gen_en.py`.
 
 ## Píxel de Meta y Google Analytics

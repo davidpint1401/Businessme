@@ -52,34 +52,16 @@
     el.textContent = new Date().getFullYear();
   });
 
-  // Formulario: envío sin recargar la página
+  // Formulario: arma el mensaje y abre WhatsApp Business
   document.querySelectorAll('[data-form]').forEach(function (form) {
-    var status = form.querySelector('.form__status');
-    var button = form.querySelector('button[type="submit"]');
     form.addEventListener('submit', function (e) {
       e.preventDefault();
-      status.className = 'form__status';
-      status.textContent = en ? 'Sending…' : 'Enviando…';
-      button.disabled = true;
-      fetch(form.action, {
-        method: 'POST',
-        body: new FormData(form),
-        headers: { Accept: 'application/json' }
-      }).then(function (res) {
-        if (!res.ok) throw new Error(res.status);
-        form.reset();
-        status.classList.add('is-ok');
-        status.textContent = en
-          ? 'Thanks! I will get back to you soon.'
-          : '¡Gracias! Te respondo muy pronto.';
-      }).catch(function () {
-        status.classList.add('is-error');
-        status.textContent = en
-          ? 'It could not be sent. Please write to me on WhatsApp.'
-          : 'No se pudo enviar. Escríbeme por WhatsApp, por favor.';
-      }).finally(function () {
-        button.disabled = false;
-      });
+      var v = function (n) { var el = form.elements[n]; return el ? el.value.trim() : ''; };
+      var lines = en
+        ? ['Hi David, I am ' + v('nombre') + '.', v('negocio') && 'Business: ' + v('negocio'), 'I need: ' + v('servicio'), v('mensaje')]
+        : ['Hola David, soy ' + v('nombre') + '.', v('negocio') && 'Negocio: ' + v('negocio'), 'Necesito: ' + v('servicio'), v('mensaje')];
+      var text = lines.filter(Boolean).join('\n');
+      window.open('https://wa.me/' + form.getAttribute('data-wa') + '?text=' + encodeURIComponent(text), '_blank', 'noopener');
     });
   });
 })();
