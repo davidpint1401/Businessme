@@ -1,6 +1,10 @@
 # Diccionario ES -> EN. Las cifras se escriben en formato español;
 # el generador las convierte a formato inglés (3.875 -> 3,875; $0,24 -> $0.24).
 T = {
+"Tijuana · 9 oct – 17 nov 2024": "Tijuana · 9 Oct – 17 Nov 2024",
+"Portada del manual de marca de AE Galería": "Cover of the AE Galería brand guidelines",
+"Portada del manual de marca de Mobiles Design": "Cover of the Mobiles Design brand guidelines",
+"Portada del manual de marca de Ladybox": "Cover of the Ladybox brand guidelines",
 "Tijuana · 9 oct – 17 nov": "Tijuana · 9 Oct – 17 Nov",
 "personas alcanzadas con $300": "people reached with $300",
 "seguidores nuevos en Instagram y Facebook": "new followers on Instagram and Facebook",

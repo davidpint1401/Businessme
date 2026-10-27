@@ -5,7 +5,8 @@
 - [ ] `[FORMSPREE_ID]`: crear el formulario en formspree.io.
 - [ ] `[CALENDLY_LINK]`: enlace de Calendly.
 - [x] Pasto Sintético: cifras del informe (9 oct – 17 nov).
-- [ ] Pasto Sintético: año del informe y enlace al catálogo (la tarjeta no enlaza por ahora).
+- [x] Pasto Sintético: 2024, enlace wa.me/p/6743732579055610.
+- [ ] Pasto Sintético y Fabiola Beauty usan el mismo enlace del catálogo (6743732579055610). Confirmar cuál es de cada uno.
 - [x] PLAFAM febrero/marzo 2024: cifras publicadas.
 - [ ] Rucha: `[CAPTURAS_RUCHA]` (capturas de los informes o de Ads Manager).
 
@@ -96,7 +97,7 @@ Cada marcador `[ASÍ]` del sitio aparece aquí. Búscalo en los HTML y reempláz
 
 ## Branding
 - [x] Manuales de Centro Plaza, Unitrans y Escape Tours, y portada de Arte Express Design.
-- [ ] Faltan 3 manuales más que enviará David.
+- [x] Portadas de AE Galería, Mobiles Design y Ladybox.
 - [x] Sección "Branding y manuales de marca" con AE Galería, Arte Express Design, Mobiles Design y Ladybox (enlaces del catálogo).
 - [ ] Imagen de portada para cada manual (opcional): enviar una captura de cada uno.
 
