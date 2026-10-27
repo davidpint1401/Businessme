@@ -96,7 +96,7 @@ Cada marcador `[ASÍ]` del sitio aparece aquí. Búscalo en los HTML y reempláz
 
 ## Mis inicios
 - [x] 31 publicaciones promocionadas (PDF «Post Resultados»), en un desplegable cerrado bajo los informes.
-- [ ] Las imágenes llevan la marca «Impulso Ads» y otro número (0426 788 4258). Confirmar si se pueden mostrar así.
+- [x] Impulso Ads era la marca anterior (se aclara en el texto). Se borró el número 0426 788 4258 de las 31 imágenes.
 
 ## Branding
 - [x] Manuales de Centro Plaza, Unitrans y Escape Tours, y portada de Arte Express Design.

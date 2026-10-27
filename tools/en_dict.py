@@ -1,6 +1,7 @@
 # Diccionario ES -> EN. Las cifras se escriben en formato español;
 # el generador las convierte a formato inglés (3.875 -> 3,875; $0,24 -> $0.24).
 T = {
+"Mis primeros trabajos en Meta, cuando mi marca era Impulso Ads, con el botón «Promocionar» de Instagram: 31 publicaciones de tiendas y marcas venezolanas. Toca para verlas.": "My first Meta work, back when my brand was Impulso Ads, using Instagram's «Boost» button: 31 posts for Venezuelan stores and brands. Tap to see them.",
 "Al enviar se abre mi WhatsApp Business con tu mensaje listo.": "Sending opens my WhatsApp Business with your message ready.",
 "Negocio": "Business",
 "Enviar por WhatsApp": "Send via WhatsApp",
