@@ -4,8 +4,9 @@
 - [ ] `[DOMINIO]`: reemplazarlo en todos los archivos (comando en README.md) y regenerar el inglés.
 - [ ] `[FORMSPREE_ID]`: crear el formulario en formspree.io.
 - [ ] `[CALENDLY_LINK]`: enlace de Calendly.
-- [ ] Pasto Sintético: `[LINK_PASTO_SINTETICO]`, `[PERIODO_PASTO]` y cifras. Si no hay informe, quitar la tarjeta.
-- [ ] PLAFAM febrero/marzo: año y cifras del informe.
+- [x] Pasto Sintético: cifras del informe (9 oct – 17 nov).
+- [ ] Pasto Sintético: año del informe y enlace al catálogo (la tarjeta no enlaza por ahora).
+- [x] PLAFAM febrero/marzo 2024: cifras publicadas.
 - [ ] Rucha: `[CAPTURAS_RUCHA]` (capturas de los informes o de Ads Manager).
 
 ## Hecho en esta etapa
@@ -94,6 +95,8 @@ Cada marcador `[ASÍ]` del sitio aparece aquí. Búscalo en los HTML y reempláz
 - [x] Posts de la casa en La Remosa: de Castro Realty. Publicados en su tarjeta (110 mensajes, 24.700 personas alcanzadas). Se publican como 2024 (confirmado).
 
 ## Branding
+- [x] Manuales de Centro Plaza, Unitrans y Escape Tours, y portada de Arte Express Design.
+- [ ] Faltan 3 manuales más que enviará David.
 - [x] Sección "Branding y manuales de marca" con AE Galería, Arte Express Design, Mobiles Design y Ladybox (enlaces del catálogo).
 - [ ] Imagen de portada para cada manual (opcional): enviar una captura de cada uno.
 

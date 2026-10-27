@@ -553,6 +553,7 @@ p { margin: 0 0 1em; }
 }
 .report > a:hover { transform: translateY(-3px); }
 .report__cover--square { aspect-ratio: 16 / 9; }
+.report__cover--manual img { object-position: top; }
 .report__cover--square img { object-position: center 40%; }
 .report__cover { aspect-ratio: 16 / 9; background: var(--gray-50); }
 .report__cover { position: relative; overflow: hidden; }

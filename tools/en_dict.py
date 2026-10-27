@@ -1,6 +1,15 @@
 # Diccionario ES -> EN. Las cifras se escriben en formato español;
 # el generador las convierte a formato inglés (3.875 -> 3,875; $0,24 -> $0.24).
 T = {
+"Tijuana · 9 oct – 17 nov": "Tijuana · 9 Oct – 17 Nov",
+"personas alcanzadas con $300": "people reached with $300",
+"seguidores nuevos en Instagram y Facebook": "new followers on Instagram and Facebook",
+"8 feb – 31 mar 2024": "8 Feb – 31 Mar 2024",
+"Portada del informe de métricas de Pasto Sintético Tijuana": "Cover of the Pasto Sintético Tijuana metrics report",
+"Portada del manual de marca de Arte Express Design": "Cover of the Arte Express Design brand guidelines",
+"Manual de marca de Centro Plaza con el logo principal, sus variaciones, la paleta de colores y las tipografías": "Centro Plaza brand guidelines with the main logo, its variations, color palette and typefaces",
+"Manual de marca de la Fundación Unitrans con el logo, sus variaciones, la paleta de colores y las tipografías": "Fundación Unitrans brand guidelines with the logo, its variations, color palette and typefaces",
+"Manual de estilo de marca de Escape Tours con el logo, la paleta de colores, las tipografías y las imágenes de inspiración": "Escape Tours brand style guide with the logo, color palette, typefaces and inspiration images",
 "¿No sabes qué necesitas o tienes un presupuesto definido? Agendamos una sesión, revisamos tu negocio y armamos juntos un plan hecho para ti. La sesión tiene costo, pero me adapto a tu presupuesto con una propuesta inicial manejable.": "Not sure what you need, or working with a set budget? We book a session, review your business and build a plan made for you. The session is paid, but I adapt to your budget with a manageable initial proposal.",
 "Soy David Pinto, Meta Ads Manager y desarrollador front-end. Ayudo a negocios de Venezuela y del exterior a conseguir más mensajes, ventas y clientes, con un trabajo claro, rápido y confiable.": "I'm David Pinto, a Meta Ads Manager and front-end developer. I help businesses in Venezuela and abroad get more messages, sales and clients, with work that is clear, fast and reliable.",
 "Contenido y marca": "Content and branding",
