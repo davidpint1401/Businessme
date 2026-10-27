@@ -26,7 +26,11 @@
     });
   }
 
-  // Selector de precios Venezuela / Internacional
+  // Precios según el país del visitante (/api/geo, en Vercel).
+  // Venezuela ve solo los precios nacionales; cualquier otro país, solo los
+  // internacionales. Con el país detectado se quita el selector y los precios
+  // del otro mercado. Si no hay país (en tu computadora o para buscadores),
+  // se muestra el selector Venezuela / Internacional como respaldo.
   var root = document.documentElement;
   root.classList.add('js');
   var setRegion = function (region) {
@@ -35,20 +39,24 @@
       b.setAttribute('aria-pressed', String(b.getAttribute('data-set-region') === region));
     });
   };
-  try {
-    var saved = localStorage.getItem('region');
-    if (saved === 've' || saved === 'int') setRegion(saved);
-  } catch (e) {}
-  document.querySelectorAll('[data-set-region]').forEach(function (b) {
-    b.addEventListener('click', function () {
-      var region = b.getAttribute('data-set-region');
-      setRegion(region);
-      try { localStorage.setItem('region', region); } catch (e) {}
+  var lockRegion = function (region) {
+    setRegion(region);
+    document.querySelectorAll('.region-switch').forEach(function (el) { el.remove(); });
+    document.querySelectorAll('[data-show]').forEach(function (el) {
+      if (el.getAttribute('data-show') !== region) el.remove();
     });
-  });
+    root.classList.remove('geo-pending');
+  };
+  var unlockRegion = function () {
+    if (!root.classList.contains('geo-pending')) return;
+    root.classList.remove('geo-pending');
+    document.querySelectorAll('[data-set-region]').forEach(function (b) {
+      b.addEventListener('click', function () { setRegion(b.getAttribute('data-set-region')); });
+    });
+  };
 
-  // Idioma y precios según el país del visitante (/api/geo, en Vercel).
-  // Solo se aplica si la persona no eligió antes idioma o región a mano.
+  // Idioma según el país: Venezuela y países de habla hispana en español,
+  // el resto en inglés. Si la persona eligió ES / EN a mano, se respeta.
   var HISPANIC = ['ES', 'MX', 'AR', 'CO', 'PE', 'VE', 'CL', 'EC', 'GT', 'CU', 'BO', 'DO', 'HN', 'PY', 'SV', 'NI', 'CR', 'PA', 'UY', 'PR', 'GQ'];
   var stored = function (k) { try { return localStorage.getItem(k); } catch (e) { return null; } };
   document.querySelectorAll('.lang-switch a[hreflang]').forEach(function (a) {
@@ -56,16 +64,19 @@
       try { localStorage.setItem('lang', a.getAttribute('hreflang')); } catch (e) {}
     });
   });
-  if (!/bot|crawl|spider|slurp|lighthouse|headless/i.test(navigator.userAgent)) {
+  if (/bot|crawl|spider|slurp|lighthouse|headless/i.test(navigator.userAgent)) {
+    unlockRegion();
+  } else {
+    setTimeout(unlockRegion, 3000);
     fetch('/api/geo').then(function (r) { return r.ok ? r.json() : null; }).then(function (g) {
-      if (!g || !g.country) return;
-      if (!stored('region')) setRegion(g.country === 'VE' ? 've' : 'int');
+      if (!g || !g.country) { unlockRegion(); return; }
       if (!stored('lang')) {
         var want = HISPANIC.indexOf(g.country) >= 0 ? 'es' : 'en';
         var link = document.querySelector('.lang-switch a[hreflang="' + want + '"]');
-        if (link) location.replace(link.getAttribute('href') + location.hash);
+        if (link) { location.replace(link.getAttribute('href') + location.hash); return; }
       }
-    }).catch(function () {});
+      lockRegion(g.country === 'VE' ? 've' : 'int');
+    }).catch(unlockRegion);
   }
 
   // Año actual en el footer

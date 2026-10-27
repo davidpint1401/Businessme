@@ -56,12 +56,12 @@ En `index.html` cada precio tiene dos versiones: `<span data-show="ve">` para Ve
 
 `api/geo.js` es una función de Vercel que devuelve el país del visitante según su IP. `assets/js/main.js` la usa así:
 
-- **Precios:** Venezuela ve los precios nacionales; cualquier otro país, los internacionales.
+- **Precios:** Venezuela ve solo los precios nacionales; cualquier otro país, solo los internacionales. El selector Venezuela / Internacional desaparece y los precios del otro mercado se quitan de la página. Mientras se detecta el país (menos de un segundo) los precios no se muestran.
 - **Idioma:** Venezuela y los países de habla hispana van al español; el resto, al inglés.
-- **Elección manual:** si la persona toca ES / EN o Venezuela / Internacional, se respeta su elección y la detección no vuelve a cambiarla.
+- **Idioma manual:** si la persona toca ES / EN, se respeta su elección. Los precios no se pueden cambiar: siempre siguen al país.
 - **Buscadores:** Google y otros robots no son redirigidos, para que indexen las dos versiones.
 
-En tu computadora (sin Vercel) la detección no corre y la web funciona igual.
+En tu computadora (sin Vercel), o si la detección falla, se muestra el selector Venezuela / Internacional como respaldo.
 
 ## Píxel de Meta y Google Analytics
 
