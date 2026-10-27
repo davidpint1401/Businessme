@@ -11,7 +11,7 @@ MONTHS = {"enero": "January", "febrero": "February", "marzo": "March", "abril": 
           "julio": "July", "agosto": "August", "septiembre": "September", "octubre": "October", "noviembre": "November", "diciembre": "December",
           "ene": "Jan", "feb": "Feb", "mar": "Mar", "abr": "Apr", "may": "May", "jun": "Jun", "jul": "Jul", "ago": "Aug",
           "sep": "Sep", "oct": "Oct", "nov": "Nov", "dic": "Dec"}
-KEEP = {"ES", "EN", "article", "website", "summary_large_image", "English version"}
+KEEP = {"ES", "EN", "article", "website", "summary_large_image", "English version", "EN · English version"}
 missing = set()
 
 def numbers(s):
@@ -62,8 +62,8 @@ def convert(src, es_path, en_path):
     html = re.sub(r'(<link rel="canonical" href="https://\[DOMINIO\])[^"]*"', rf'\g<1>{en_path}"', html)
     html = re.sub(r'(<meta property="og:url" content="https://\[DOMINIO\])[^"]*"', rf'\g<1>{en_path}"', html)
     html = re.sub(r'href="(/[^"]*)"', lambda m: f'href="{es_to_en_path(m.group(1))}"' if not m.group(1).startswith(("/assets", "/en/")) else m.group(0), html)
-    html = re.sub(r'<span aria-current="true" lang="es">ES</span>\s*<a href="[^"]*" hreflang="en" lang="en" aria-label="English version">EN</a>',
-                  f'<a href="{es_path}" hreflang="es" lang="es" aria-label="Versión en español">ES</a>\n        <span aria-current="true" lang="en">EN</span>', html)
+    html = re.sub(r'<span aria-current="true" lang="es">ES</span>\s*<a href="[^"]*" hreflang="en" lang="en" aria-label="EN · English version">EN</a>',
+                  f'<a href="{es_path}" hreflang="es" lang="es" aria-label="ES · Versión en español">ES</a>\n        <span aria-current="true" lang="en">EN</span>', html)
     html = html.replace('/assets/img/og-image.jpg', '/assets/img/og-image-en.jpg')
     for a, b in URL.items():
         html = html.replace(a, b)

@@ -100,7 +100,7 @@
   --gray-50: #F5F7FA;
   --gray-600: #4A5563;    /* texto secundario sobre blanco (AA) */
   --whatsapp: #25D366;
-  --whatsapp-dark: #128C4A;
+  --whatsapp-dark: #0E7A3E;
 
   --font-display: "Bebas Neue", "Arial Narrow", Impact, sans-serif;
   --font-body: "Poppins", system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -235,7 +235,7 @@ p { margin: 0 0 1em; }
 .btn:hover { transform: translateY(-2px); }
 .btn svg { width: 20px; height: 20px; flex: none; }
 .btn--whatsapp { background: var(--whatsapp-dark); color: var(--white); }
-.btn--whatsapp:hover { background: #0F7A40; }
+.btn--whatsapp:hover { background: #0B6332; }
 .btn--primary { background: var(--blue-text); color: var(--white); }
 .btn--primary:hover { background: #095DA6; }
 .btn--ghost { background: transparent; color: var(--white); border-color: var(--white); }
