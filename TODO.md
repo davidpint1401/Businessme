@@ -2,8 +2,7 @@
 
 ## Para publicar (prioridad)
 - [ ] `[DOMINIO]`: reemplazarlo en todos los archivos (comando en README.md) y regenerar el inglés.
-- [ ] `[FORMSPREE_ID]`: crear el formulario en formspree.io.
-- [ ] `[CALENDLY_LINK]`: enlace de Calendly.
+- [x] Contacto solo por WhatsApp Business: se quitó Calendly y el formulario abre WhatsApp (ya no usa Formspree).
 - [x] Pasto Sintético: cifras del informe (9 oct – 17 nov).
 - [x] Pasto Sintético: 2024, enlace wa.me/p/6743732579055610.
 - [ ] Pasto Sintético y Fabiola Beauty usan el mismo enlace del catálogo (6743732579055610). Confirmar cuál es de cada uno.
@@ -94,6 +93,10 @@ Cada marcador `[ASÍ]` del sitio aparece aquí. Búscalo en los HTML y reempláz
 - [x] Los posts "higiene y desechables" y "Llegando..." no se publican (decisión de David).
 - [x] El reel de la patillera Kemei es de Guaroshop. Agregado a la galería del caso.
 - [x] Posts de la casa en La Remosa: de Castro Realty. Publicados en su tarjeta (110 mensajes, 24.700 personas alcanzadas). Se publican como 2024 (confirmado).
+
+## Mis inicios
+- [x] 31 publicaciones promocionadas (PDF «Post Resultados»), en un desplegable cerrado bajo los informes.
+- [ ] Las imágenes llevan la marca «Impulso Ads» y otro número (0426 788 4258). Confirmar si se pueden mostrar así.
 
 ## Branding
 - [x] Manuales de Centro Plaza, Unitrans y Escape Tours, y portada de Arte Express Design.

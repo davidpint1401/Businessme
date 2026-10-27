@@ -1,6 +1,15 @@
 # Diccionario ES -> EN. Las cifras se escriben en formato español;
 # el generador las convierte a formato inglés (3.875 -> 3,875; $0,24 -> $0.24).
 T = {
+"Al enviar se abre mi WhatsApp Business con tu mensaje listo.": "Sending opens my WhatsApp Business with your message ready.",
+"Negocio": "Business",
+"Enviar por WhatsApp": "Send via WhatsApp",
+"PLAFAM, Asociación Civil de Planificación Familiar": "PLAFAM, family planning nonprofit",
+"Adricell": "Adricell",
+"Mis inicios": "Where I started",
+"Publicaciones promocionadas": "Boosted posts",
+"Mis primeros trabajos en Meta, con el botón «Promocionar» de Instagram: 31 publicaciones de tiendas y marcas venezolanas. Toca para verlas.": "My first Meta work, using Instagram's «Boost» button: 31 posts for Venezuelan stores and brands. Tap to see them.",
+"Resultados de una publicación promocionada en Instagram, primeros trabajos": "Results of a boosted Instagram post, early work",
 "Tijuana · 9 oct – 17 nov 2024": "Tijuana · 9 Oct – 17 Nov 2024",
 "Portada del manual de marca de AE Galería": "Cover of the AE Galería brand guidelines",
 "Portada del manual de marca de Mobiles Design": "Cover of the Mobiles Design brand guidelines",
