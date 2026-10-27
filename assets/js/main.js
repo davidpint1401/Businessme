@@ -47,6 +47,27 @@
     });
   });
 
+  // Idioma y precios según el país del visitante (/api/geo, en Vercel).
+  // Solo se aplica si la persona no eligió antes idioma o región a mano.
+  var HISPANIC = ['ES', 'MX', 'AR', 'CO', 'PE', 'VE', 'CL', 'EC', 'GT', 'CU', 'BO', 'DO', 'HN', 'PY', 'SV', 'NI', 'CR', 'PA', 'UY', 'PR', 'GQ'];
+  var stored = function (k) { try { return localStorage.getItem(k); } catch (e) { return null; } };
+  document.querySelectorAll('.lang-switch a[hreflang]').forEach(function (a) {
+    a.addEventListener('click', function () {
+      try { localStorage.setItem('lang', a.getAttribute('hreflang')); } catch (e) {}
+    });
+  });
+  if (!/bot|crawl|spider|slurp|lighthouse|headless/i.test(navigator.userAgent)) {
+    fetch('/api/geo').then(function (r) { return r.ok ? r.json() : null; }).then(function (g) {
+      if (!g || !g.country) return;
+      if (!stored('region')) setRegion(g.country === 'VE' ? 've' : 'int');
+      if (!stored('lang')) {
+        var want = HISPANIC.indexOf(g.country) >= 0 ? 'es' : 'en';
+        var link = document.querySelector('.lang-switch a[hreflang="' + want + '"]');
+        if (link) location.replace(link.getAttribute('href') + location.hash);
+      }
+    }).catch(function () {});
+  }
+
   // Año actual en el footer
   document.querySelectorAll('[data-year]').forEach(function (el) {
     el.textContent = new Date().getFullYear();

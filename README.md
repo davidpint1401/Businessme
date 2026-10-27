@@ -52,6 +52,17 @@ En `index.html` cada precio tiene dos versiones: `<span data-show="ve">` para Ve
 - **Formulario:** no necesita servicio externo. Al enviarlo se abre tu WhatsApp Business (+58 414 130 5217) con el mensaje armado. El número está en el atributo `data-wa` del formulario.
 - Después corre `python3 tools/gen_en.py`.
 
+## Idioma y precios automáticos
+
+`api/geo.js` es una función de Vercel que devuelve el país del visitante según su IP. `assets/js/main.js` la usa así:
+
+- **Precios:** Venezuela ve los precios nacionales; cualquier otro país, los internacionales.
+- **Idioma:** Venezuela y los países de habla hispana van al español; el resto, al inglés.
+- **Elección manual:** si la persona toca ES / EN o Venezuela / Internacional, se respeta su elección y la detección no vuelve a cambiarla.
+- **Buscadores:** Google y otros robots no son redirigidos, para que indexen las dos versiones.
+
+En tu computadora (sin Vercel) la detección no corre y la web funciona igual.
+
 ## Píxel de Meta y Google Analytics
 
 Están comentados en el `<head>` de cada página. Para activarlos, quita los comentarios y pon tu ID (`[PIXEL_ID]`, `[GA_ID]`). Hazlo en las páginas en español y regenera el inglés.

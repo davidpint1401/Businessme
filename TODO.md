@@ -10,6 +10,7 @@
 - [ ] Rucha: `[CAPTURAS_RUCHA]` (capturas de los informes o de Ads Manager).
 
 ## Hecho en esta etapa
+- [x] Idioma y precios automáticos según el país (api/geo.js). Solo funciona ya publicado en Vercel.
 - [x] Manual de marca (desde $400 VE / $600 internacional), plan personalizado y bloque «Mi compromiso contigo».
 - [x] Plan personalizado: sesión con costo, propuesta inicial adaptada al presupuesto (sin precio fijo publicado).
 - [x] Versión en inglés (`/en/`), generada con `tools/gen_en.py`.
