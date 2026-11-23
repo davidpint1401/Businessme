@@ -573,6 +573,8 @@ p { margin: 0 0 1em; }
 .report h4 { font-family: var(--font-display); font-weight: 400; font-size: 1.7rem; line-height: 1; margin: 0 0 .6rem; }
 .report__kpis { list-style: none; margin: 0 0 .9rem; padding: 0; display: grid; gap: .3rem; font-size: .875rem; color: var(--gray-600); }
 .report__kpis strong { font-family: var(--font-display); font-weight: 400; font-size: 1.35rem; color: var(--navy); margin-right: .2rem; }
+.report__links { margin: auto 0 0; display: flex; flex-wrap: wrap; gap: .4rem 1rem; font-weight: 600; font-size: .9rem; }
+a.report__cover { display: block; }
 .report__link { margin-top: auto; font-weight: 600; color: var(--blue-text); font-size: .9rem; }
 
 .shot.shot--wide { max-width: none; margin-top: 1rem; }
@@ -668,7 +670,7 @@ p { margin: 0 0 1em; }
 
 /* Marcas estrella */
 .stars__title { margin: 1.5rem 0 .75rem; font-size: 1rem; }
-.stars { display: grid; grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: .75rem; list-style: none; margin: 0 0 1.5rem; padding: 0; }
+.stars { display: grid; grid-template-columns: repeat(auto-fill, minmax(92px, 1fr)); gap: .75rem; list-style: none; margin: 0 0 1.5rem; padding: 0; }
 .stars a, .stars li > div { display: block; text-decoration: none; color: var(--black); font-weight: 600; font-size: .85rem; text-align: center; }
 .stars img { width: 100%; aspect-ratio: 1; border-radius: var(--radius); box-shadow: var(--shadow); margin-bottom: .4rem; transition: transform .15s ease; }
 .stars a:hover img { transform: translateY(-3px); }

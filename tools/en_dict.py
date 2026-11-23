@@ -1,6 +1,20 @@
 # Diccionario ES -> EN. Las cifras se escriben en formato español;
 # el generador las convierte a formato inglés (3.875 -> 3,875; $0,24 -> $0.24).
 T = {
+"conversaciones por WhatsApp en 12 meses": "WhatsApp conversations in 12 months",
+"Guaroshop · dic 2025 – nov 2026": "Guaroshop · Dec 2025 – Nov 2026",
+"conversaciones en un solo mes": "conversations in a single month",
+"Guaroshop · sep–oct 2026": "Guaroshop · Sep–Oct 2026",
+"por conversación de WhatsApp": "per WhatsApp conversation",
+"Pina Cosméticos · 3.319 conversaciones": "Pina Cosméticos · 3.319 conversations",
+"PLAFAM · Meta Ads": "PLAFAM · Meta Ads",
+"David Pinto · Meta Ads Manager y desarrollador front-end. 19.917 conversaciones por WhatsApp en 12 meses para Guaroshop y conversaciones desde $0,045.": "David Pinto · Meta Ads Manager and front-end developer. 19.917 WhatsApp conversations in 12 months for Guaroshop and conversations from $0,045.",
+"Ver informe de resultados de Pina Cosméticos": "View the Pina Cosméticos results report",
+"Ver informe de resultados de Todo Cosméticos": "View the Todo Cosméticos results report",
+"Ver resultados →": "View results →",
+"Ver análisis →": "View analysis →",
+"Pina Cosméticos": "Pina Cosméticos",
+"Todo Cosméticos": "Todo Cosméticos",
 "Campañas de Meta Ads para Guaroshop en Barquisimeto y Acarigua: 3.875 conversaciones en un mes a $0,24 y 19.917 conversaciones en 12 meses.": "Meta Ads campaigns for Guaroshop in Barquisimeto and Acarigua: 3.875 conversations in one month at $0,24 and 19.917 conversations in 12 months.",
 "12 meses de campañas": "12 months of campaigns",
 "Guaroshop trabaja conmigo de forma continua. Así se ven las campañas mes a mes, de diciembre de 2025 a noviembre de 2026.": "Guaroshop works with me on an ongoing basis. Here are the campaigns month by month, from December 2025 to November 2026.",
